@@ -1,0 +1,192 @@
+version: "2.0"
+
+stories:
+
+
+- story: depressed
+  steps:
+  - intent: depressed
+  - action: utter_sad
+  - action: utter_how_you_feel
+  - or:
+    - intent: sad
+    - intent: disappointed
+    - intent: depressed
+    - intent: devastated
+  - action: utter_sorry
+
+- story: suicidal_thought
+  steps:
+  - intent: suicidal_thought
+  - action: utter_worry
+  - action: utter_what_happen
+  - or:
+    - intent: sad
+    - intent: disappointed
+    - intent: depressed
+    - intent: devastated
+  - action: utter_sorry
+  - action: utter_how_you_feel
+
+- story: stressed
+  steps:
+  - intent: stressed
+  - action: utter_sorry
+  - action: utter_how_you_feel
+  - intent: stressed
+  - action: utter_wish_better
+
+- story: insomia
+  steps:
+  - intent: insomia
+  - action: utter_shock
+  - action: utter_wish_better
+
+- story: feel useless
+  steps:
+  - intent: feel-useless
+  - action: utter_sorry
+  - action: utter_what_happen
+  - or:
+    - intent: sad
+    - intent: disappointed
+    - intent: depressed
+    - intent: devastated
+  - action: utter_sorry
+  - action: utter_how_you_feel
+
+- story: empty
+  steps:
+  - intent: empty
+  - action: utter_sad
+
+- story: fear, affraid, apprehensive
+  steps:
+  - or:
+    - intent: fear
+    - intent: affraid
+    - intent: apprehensive
+  - action: utter_shock
+  - action: utter_what_happen
+  - or:
+    - intent: fear
+    - intent: affraid
+    - intent: apprehensive
+    - intent: devastated
+  - action: utter_worry
+  - action: utter_wish_better
+
+- story: self harm
+  steps:
+  - intent: suicidal_thought
+  - action: utter_worry
+  - action: utter_what_happen
+  - or:
+    - intent: sad
+    - intent: disappointed
+    - intent: depressed
+    - intent: devastated
+  - action: utter_sorry
+  - action: utter_cheer_up
+
+- story: angry, jealous, furious
+  steps:
+  - or:
+    - intent: angry
+    - intent: jealous
+    - intent: furious
+  - action: utter_angry
+  - action: utter_ask_next 
+
+- story: annoyed
+  steps:
+  - intent: annoyed
+  - action: utter_angry
+  - action: utter_ask_next
+
+- story: anxious, ashamed, embarassed, 
+  steps:
+  - or:
+    - intent: anxious
+    - intent: ashamed
+    - intent: embarassed
+  - action: utter_sad
+
+- story: excited, hopeful
+  steps:
+  - or:
+    - intent: excited
+    - intent: hopeful
+  - action: utter_happy
+- story: devastated, dissapointed
+  steps:
+  - or:
+    - intent: devastated
+    - intent: dissapointed
+  - action: utter_sad
+
+- story: faithful, grateful
+  steps:
+  - or:
+    - intent: faithful
+    - intent: grateful
+  - action: utter_good_to_hear
+
+- story: guilty 
+  steps:
+  - intent: guilty
+  - action: utter_sorry
+  - action: utter_ask_next
+  - intent: guilty
+  - action: utter_really
+  - action: utter_how_you_feel
+  - intent: sad
+  - action: utter_sad
+
+- story: lonely
+  steps:
+  - intent: lonely
+  - action: utter_sad
+  - action: utter_how_you_feel
+  - or:
+    - intent: sad
+    - intent: disappointed
+    - intent: depressed
+    - intent: devastated
+  - action: utter_sorry
+  - action: utter_cheer_up
+
+# - story: nostalgic
+#   steps:
+#   - intent: nostalgic
+#   - action: utter_
+
+- story: joyful, content
+  steps:
+  - or:
+    - intent: joyful
+    - intent: content
+  - action: utter_good_to_hear
+
+- story: proud
+  steps:
+  - intent: proud
+  - action: utter_congrat
+  - action: utter_good_to_hear
+
+# - story: sentimental
+#   steps:
+#   - intent: sentimental
+#   - action: utter_happy
+
+# - story: surprised
+#   steps:
+#   - intent: surprised
+#   - action: utter_sad
+
+
+- story: end_of_story
+  steps:
+  - intent: end_of_story
+  - action: utter
+  - action: utter_good_to_hear

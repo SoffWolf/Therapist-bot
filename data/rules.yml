@@ -1,0 +1,64 @@
+version: "2.0"
+
+rules:
+
+- rule: greet
+  steps:
+  - intent: greet
+  - action: utter_greet
+
+- rule: goodbye
+  steps:
+  - intent: goodbye
+  - action: utter_goodbye
+
+- rule: hesitate
+  steps:
+  - intent: hesitated
+  - action: utter_convince
+
+- rule: thanks
+  steps:
+  - intent: thanks
+  - action: utter_you_welcome
+
+- rule: who are you
+  steps:
+  - intent: who_are_you
+  - action: utter_who_i_am
+
+- rule: can you feel love
+  steps:
+  - intent: do_you_have_feeling
+  - action: utter_my_feeling
+
+- rule: what can you do
+  steps:
+  - intent: what_can_you_do
+  - action: utter_my_capabilities
+
+- rule: tell joke
+  steps:
+  - intent: tell_joke
+  - action: utter_joke
+
+- rule: send meme
+  steps:
+  - intent: send_meme
+  - action: utter_send_meme
+
+- rule: send music
+  steps:
+  - intent: send_music
+  - action: utter_send_music
+
+- rule: confused
+  steps:
+  - intent: confused
+  - action: utter_apology
+  - action: utter_confuse
+
+- rule: no advice
+  steps:
+  - intent: ask_for_advice
+  - action: utter_no_advice

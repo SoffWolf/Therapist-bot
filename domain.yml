@@ -1,0 +1,291 @@
+version: "2.0"
+
+intents:
+  - depressed
+  - suicidal_thought
+  - stressed
+  - insomia
+  - feel-useless
+  - empty
+  - fear
+  - self-harm
+  
+  - afraid
+  - angry
+  - annoyed
+  - anxious 
+  - apprehensive
+  - ashamed
+  - content
+  - devastated
+  - disappointed
+  - embarassed
+  - excited
+  - faithful
+  - furious
+  - grateful
+  - guilty
+  - hopeful
+  - jealous
+  - joyful
+  - lonely
+  - nostalgic
+  - proud
+  - sentimental
+  - surprised
+  
+  - greet
+  - goodbye
+  - affirm
+  - deny
+  - hesitated
+  - thanks
+  - who_are_you
+  - do_you_have_feeling
+  - what_can_you_do
+  - tell_joke
+  - send_meme
+  - send_music
+  - confused
+  - end_of_story
+  - ask_for_advice
+
+
+
+entities:
+  - location  
+  - facility_type
+
+slots:
+  location:
+    type: text
+  facility_type:
+    type: text
+  address:
+    type: unfeaturized
+  
+
+actions:
+  - utter_greet
+  - utter_goodbye
+  - utter_ask_location      #
+  - utter_who_i_am
+  - utter_my_capabilities
+  - utter_my_feeling
+  - utter_confuse
+  - utter_you_welcome
+  - utter_convince
+  
+  - utter_shock
+  - utter_impressed
+  - utter_angry
+  - utter_apology
+  - utter_worry
+  - utter_cheer_up
+  - utter_sorry
+  - utter_congrat
+  - utter_happy
+  - utter_sad
+  - utter_send_music
+  - utter_send_meme
+  - utter_ask_better
+  - utter_affirm
+  - utter_deny
+  - utter_what_happen
+  - utter_ask_next
+  - utter_how_you_feel
+  - utter_good_to_hear
+  - utter_wish_better     
+  - utter_not_capable     #
+  - utter_no_advice       #
+  - utter_lifeline        #
+  - utter_joke
+
+responses:
+  utter_greet:
+  - text: "Hey! How are you?"
+  - text: "Hi!"
+  - text: "Hello!"
+  utter_goodbye:
+  - text: "Bye!"
+  - text: "Bye bye!"
+  - text: "Goodbye!"
+  - text: "See you!"
+  utter_ask_location:
+  - text: "Can I ask what country are you live in?"
+  - text: "Can you please tell me the country you live in?"
+  - text: "May I ask where do you live? What country?"
+  - text: "What country are you currently living in?"
+  utter_who_i_am:
+  - text: "I am the Empathetic chatbot created by 2 young students at Aalto University in April 2021. I am here in case you need someone to talk to ;)."
+  utter_my_capabilities:
+  - text: "I am capable of, well, chatting to you. I can also tell you some offensive jokes, give you some memes and music if you ask me to. That's all of it."
+  utter_my_feeling:
+  - text: "I don't have feeling as you, human. I can only understand your feeling by mapping that feeling into the vector space. So in a way, this vector space is where we share the connection."
+  utter_confuse:
+  - text: "Sorry but can you rephrase that?"
+  - text: "I am confused. Can you specify what you say earlier?"
+  - text: "Sorry but I don't understand you that well. Could you say it again?"
+  - text: "I don't think I fully understood you. Please rephrase what you've just said!"
+  utter_you_welcome:
+  - text: "It's my pleasure!"
+  - text: "You're welcome!"
+  - text: "Oh thanks! I am happy to help."
+  - text: "I am glad that I can help!"
+  utter_convince:
+  - text: "It might be good to get things off your chest you know. I'm not capable of judging other people, and also I have all the time and energy to listen to you. So why not, right?"
+
+  utter_shock:
+  - text: "Woah! That is shocking!"
+  - text: "Really!"
+  - text: "That's hard to believe!"
+  - text: "Damn! For real?"
+  utter_impressed:
+  - text: "Wow!"
+  - text: "That is impressive!"
+  - text: "That's incredible!"
+  - text: "Not gonna lie that impressed me!"
+  utter_angry:
+  - text: "I am furious now!"
+  - text: "That is messed up!"
+  - text: "I can't believe that happened."
+  - text: "I'm angry now!"
+  - text: "So angry!"
+  utter_apology:
+  - text: "I am so sorry!"
+  - text: "I'm sorry!"
+  - text: "My apology!"
+  - text: "I apologize for saying that!"
+  - text: "Sorry!"
+  - text: "My bad! I am sorry!"
+  utter_worry:
+  - text: "I am worried for you!"
+  - text: "I am concerned now!"
+  - text: "That's awful. I am worried for you!"
+  utter_cheer_up:
+  - text: "I think I have to cheer you up. What do you want? A meme, an offensive joke, or a song?"
+  - text: "I might know how to cheer you up. Do you want an offensive joke, a meme, or a song?"
+  - text: "I think I know how to make you feel a little better. Do you want an offensive joke, a meme, or a song?"
+  - text: "I have a question, what will cheer you up now? An offensive joke, a meme, or a song? I can get you one right now."
+  utter_sorry:
+  - text: "I am so sorry to hear that!"
+  - text: "I'm so sorry!"
+  - text: "It's sad that happen!"
+  - text: "So sad to hear that!"
+  - text: "That must be so sad!"
+  - text: "I am saddened to hear of your situation!"
+  - text: "I can't imagine the sadness you must be feeling from that!"
+  - text: "I wish that I could share your sorrow."
+  utter_congrat:
+  - text: "Congrat!"
+  - text: "That is so nice!"
+  - text: "Congratulation!"
+  - text: "It is warm-hearted to hear that!"
+  utter_happy:
+  - text: "That's great :D"
+  - text: "That is so nice."
+  - text: "Oh, niceee"
+  - text: "Oh! That's good!"
+  utter_sad:
+  - text: "That's sad :("
+  - text: "That is so sad."
+  - text: "Oh no, that's not good :("
+  - text: "Oh! That's sad!"
+  - text: "Oh no!"
+  - text: "Must be sad :("
+  utter_send_music:
+  - text: "This is a sad one, but I like it:"
+    video: https://www.youtube.com/watch?v=Kb24RrHIbFk
+  - text: "This is my classic favourite:"
+    video: https://www.youtube.com/watch?v=uSD4vsh1zDA&t=1s
+  - text: "I like to listen to this when I have no motivation:"
+    video: https://www.youtube.com/watch?v=lxRwEPvL-mQ
+  - text: "I guess this is what a healing soul sounds like:"
+    video: https://www.youtube.com/watch?v=nH575Ld1ATg
+  - text: "This is something else. It's name is "Rooftop 102". Don't understand, just feel it ;) :"
+    video: https://www.youtube.com/watch?v=_pgjLLSo8yM
+  - text: "This is a dark one. I like it:"
+    video: https://www.youtube.com/watch?v=FAucVNRx_mU
+  - text: "This is SAD!:"
+    video: https://www.youtube.com/watch?v=pgN-vvVVxMA
+  utter_send_meme:
+  - text: "This is a wholesome one:"
+    image: https://imgur.com/gallery/ceTLz15
+  - text: "This is a good one:"
+    image: https://imgur.com/gallery/3hMjtAu
+  - text: "This might cheer you up:"
+    image: https://imgur.com/gallery/lY2N8ts
+  - text: "This might cheer you up:"
+    image: https://imgur.com/gallery/kdI54gy
+  - text: "This is an offensive one :( :"
+    image: https://imgur.com/gallery/Fa2a7
+  - text: "OK This is a dark one :D :"
+    image: https://imgur.com/gallery/zDuq2
+  utter_ask_better:
+  - text: "Are you feeling better?"
+  - text: "Feeling better now?"
+  - text: "How do you feel talking about all this?"
+  - text: "Do you feel any better?"
+  - text: "I hope I do some help. Do you feel any better?"
+
+  utter_affirm:
+  - text: "Alright!"
+  - text: "OK!"
+  - text: "Yes!"
+  utter_deny:
+  - text: "No, I don't think I can do that."
+  - text: "Sorry but I have to say no."
+  utter_what_happen:
+  - text: "What happen?"
+  - text: "Can you tell me what happen?"
+  - text: "Please tell me what happen!"
+  - text: "Please tell me what make you feel that way!"
+  utter_ask_next:
+  - text: "Then what happen?"
+  - text: "What happen next?"
+  - text: "What happen after that?"
+  - text: "After that, what happen?"
+  - text: "Did anything else happen after that?"
+  - text: "And then?"
+  utter_how_you_feel:
+  - text: "How do you feel about it?"
+  - text: "What was your feeling then?"
+  - text: "How did you feel about it?"
+  - text: "What do you think about it?"
+  - text: "What's your feeling on that?"
+  utter_good_to_hear:
+  - text: "Oh that is nice to hear!"
+  - text: "That is super nice!"
+  - text: "That's good to hear!"
+  - text: "Niceee!"
+  - text: "I'm so happy for you!"
+  utter_wish_better:
+  - text: "I wish thing would be better for you soon!"
+  - text: "I hope things will turn out ok for you in the end!"
+  - text: "I hope good things will happen to you!"
+  - text: "I hope you feel better soon!"
+  - text: "Realy hope things will turn out to be ok for you in the end!"
+  utter_not_capable:
+  - text: "I am not capable of doing that!"
+  - text: "Sorry but I can't help you on this?"
+  - text: "I don't think I could do that!"
+  - text: "That is outside of my expertise!"
+  utter_no_advice:
+  - text: "Sorry but I can't give you advice. It's dangerous getting advice from me."
+  - text: "Can you please ask someone else for that? I am the worst person to get advice from!"
+  - text: "I don't think it is wise to get advice from me!"
+  - text: "I am just a baby bot! Don't take advice from me!"
+  utter_lifeline: 
+  - text: "I don't think I am eligible to help you with your problem! Here is the support lifeline of your country if you have trouble with suicidal thought and depression: ...... I hope this will help!"
+  utter_joke: 
+  - text: What’s the difference between a joke and two dicks? You can’t take a joke.
+  - text: What’s the difference between Usain Bolt and Hitler? Usain Bolt can finish a race.
+  - text: How is eating pussy and being in the mafia the same? One slip of the tongue and you’re in deep shit.
+  - text: The idea that women only belong in the kitchen is dated and offensive. The rest of the house needs cleaned too.
+  - text: My girlfriend called me a pedophile the other day. Pretty big word for a 9 years old.
+  - text: Why does Stephen Hawking do one-liners? Because he can’t do stand up.
+  - text: What’s red, hard, and bad for your teeth? A brick.
+
+session_config:
+  session_expiration_time: 60
+  carry_over_slots_to_new_session: true
