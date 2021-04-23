@@ -4,12 +4,12 @@ intents:
   - depressed
   - suicidal_thought
   - stressed
-  - insomia
+  - insomnia
   - feel-useless
   - empty
   - fear
   - self-harm
-  
+  - sad
   - afraid
   - angry
   - annoyed
@@ -19,7 +19,7 @@ intents:
   - content
   - devastated
   - disappointed
-  - embarassed
+  - embarrassed
   - excited
   - faithful
   - furious
@@ -64,6 +64,7 @@ slots:
   address:
     type: unfeaturized
   
+  
 
 actions:
   - utter_greet
@@ -100,6 +101,7 @@ actions:
   - utter_no_advice       #
   - utter_lifeline        #
   - utter_joke
+  - utter_really
 
 responses:
   utter_greet:
@@ -195,19 +197,19 @@ responses:
   - text: "Must be sad :("
   utter_send_music:
   - text: "This is a sad one, but I like it:"
-    video: https://www.youtube.com/watch?v=Kb24RrHIbFk
+#    video: https://www.youtube.com/watch?v=Kb24RrHIbFk
   - text: "This is my classic favourite:"
-    video: https://www.youtube.com/watch?v=uSD4vsh1zDA&t=1s
+#    video: https://www.youtube.com/watch?v=uSD4vsh1zDA&t=1s
   - text: "I like to listen to this when I have no motivation:"
-    video: https://www.youtube.com/watch?v=lxRwEPvL-mQ
+#    video: https://www.youtube.com/watch?v=lxRwEPvL-mQ
   - text: "I guess this is what a healing soul sounds like:"
-    video: https://www.youtube.com/watch?v=nH575Ld1ATg
-  - text: "This is something else. It's name is "Rooftop 102". Don't understand, just feel it ;) :"
-    video: https://www.youtube.com/watch?v=_pgjLLSo8yM
+#    video: https://www.youtube.com/watch?v=nH575Ld1ATg
+  - text: "This is something else. It's name is 'Rooftop 102'. Don't understand, just feel it ;) :"
+#    video: https://www.youtube.com/watch?v=_pgjLLSo8yM
   - text: "This is a dark one. I like it:"
-    video: https://www.youtube.com/watch?v=FAucVNRx_mU
+#    video: https://www.youtube.com/watch?v=FAucVNRx_mU
   - text: "This is SAD!:"
-    video: https://www.youtube.com/watch?v=pgN-vvVVxMA
+#    video: https://www.youtube.com/watch?v=pgN-vvVVxMA
   utter_send_meme:
   - text: "This is a wholesome one:"
     image: https://imgur.com/gallery/ceTLz15
@@ -253,6 +255,8 @@ responses:
   - text: "How did you feel about it?"
   - text: "What do you think about it?"
   - text: "What's your feeling on that?"
+  utter_really:
+  - text: "For Real?."
   utter_good_to_hear:
   - text: "Oh that is nice to hear!"
   - text: "That is super nice!"

@@ -36,9 +36,9 @@ stories:
   - intent: stressed
   - action: utter_wish_better
 
-- story: insomia
+- story: insomnia
   steps:
-  - intent: insomia
+  - intent: insomnia
   - action: utter_shock
   - action: utter_wish_better
 
@@ -60,17 +60,17 @@ stories:
   - intent: empty
   - action: utter_sad
 
-- story: fear, affraid, apprehensive
+- story: fear, afraid, apprehensive
   steps:
   - or:
     - intent: fear
-    - intent: affraid
+    - intent: afraid
     - intent: apprehensive
   - action: utter_shock
   - action: utter_what_happen
   - or:
     - intent: fear
-    - intent: affraid
+    - intent: afraid
     - intent: apprehensive
     - intent: devastated
   - action: utter_worry
@@ -104,12 +104,12 @@ stories:
   - action: utter_angry
   - action: utter_ask_next
 
-- story: anxious, ashamed, embarassed, 
+- story: anxious, ashamed, embarrassed, 
   steps:
   - or:
     - intent: anxious
     - intent: ashamed
-    - intent: embarassed
+    - intent: embarrassed
   - action: utter_sad
 
 - story: excited, hopeful
@@ -118,11 +118,11 @@ stories:
     - intent: excited
     - intent: hopeful
   - action: utter_happy
-- story: devastated, dissapointed
+- story: devastated, disappointed
   steps:
   - or:
     - intent: devastated
-    - intent: dissapointed
+    - intent: disappointed
   - action: utter_sad
 
 - story: faithful, grateful
@@ -188,5 +188,5 @@ stories:
 - story: end_of_story
   steps:
   - intent: end_of_story
-  - action: utter
+#  - action: utter
   - action: utter_good_to_hear

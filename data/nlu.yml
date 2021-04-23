@@ -189,7 +189,7 @@ nlu:
     - I have some exams this April, and my parents keep on pressuring me to study, they tell me that if I get less than 90%, they’ll ground me. 
     - I’m trying, I really am, but whenever I finish reading a bit, it’s just as if I’ve never read it. 
     - I keep imagining myself getting high grades and making my parents proud, or studying and understanding everything, but I can’t focus, and I can’t actually get myself to be that person that I’m trying to be to make parents like me, which stresses me so bad. 
-- intent: insomia
+- intent: insomnia
   examples: |
     - I've had maintenance insomnia.
     - I've had serious sleeping problem for one year because of lockdown.
@@ -264,43 +264,40 @@ nlu:
     - I am nothing more than than a burden on my family, health care in my country and the social services here.   
     - I don't have any value and I would be better off dead.    
 
-
-
-
 - intent: empty
   examples: |
-- At this point I'm just so lost and broken I don't know if I'd be better off gone or not.  
-- I don't know what I value. I don't know what my aspirations are in life. I feel emotionally flatlined in all respects. I don't know what I'm working towards or what its all for.   
-- Everyday I just feel super lonely and empty, and I have slept well in such a long time.   
-- I just need to know. It almost feels like I don't show emotions. But, when I do, it feels like I'm faking it.   
--  I just feel emotionless a lot of the time.   
-- I'm just so tired and I don't know what to do.    
-- I feel like a broken person and all the therapist, and all the psychologist were no help.   
-- I just can't feel sadness or being happy I just feel numb my friends I just feel they hate me.   
-- My life just doesn't seem to get any better, anytime something good happens something terrible happens.   
-- I always feel like no one gives a shit about me or my feelings and would always close up my emotions.   
-- Every night I just feel miserable, a empty void inside and I just don't want to deal with this life anymore.    
-- I can't even remember the good times I've had, instead I remember terrible things I've done and dealt with.   
-- I feel so bitter whenever I see people walking together on campus and smiling.   
-- Nothing really gives me joy   
-- I've been so confused and lost and apathetic about everything. I don't care anymore about grades or school, or even my friends or family.    
-- Sometimes I even forget that I'm alive because all I do just sleep.    
-- My bestfriend died and I feel completely empty inside.   
-- I have no plans for future, I don't have goals or dream. I feel just lazy and empty shell.   
-- I feel like I'm drowning in meaninglessness. I can surrender to the void.   
-- Everyday I just feel super lonely and empty, and I have slept well in such a long time. Feeling depressed and down the whole day and I can't even sleep    
-- I don't get joy by doing anything.    
-- I am crying constantly and nothing motivates me to do anything, I have no energy.    
-- I get numbness and it won't let me work or have fun, just constantly staring into nothing.   
-- I am moving out of my parent's home for the first time, and I feel completely empty.   
-- I feel like nobody can relate to me and my experiences. I feel like there's no one to talk about and there's not even a point of talking to anyone.   
-- I feel like a fucking alien without and heart and soul because everyone was so different to me.   
-- I have hit the rock bottom of life and I don't know anything anymore. I feel extremely tired and unmotivated to think about anything.   
-- I'm not even sure why anymore, but I want to kill myself. I just feel so empty.   
-- I have lost all excitement for anything. I don't even care that I am graduating and don't even care that I made it when everybody else thought I wouldn't.   
-- I have a good job, family but yet fill feel empty inside.   
-- I'm surrounded by people I care about who care about me and I feel nothing, I just want them all gone, I just want to be alone.    
--  I am becoming more numb and careless which is complete different from my natural personality, today is my physics exam and I have no idea what to do now?   
+    - At this point I'm just so lost and broken I don't know if I'd be better off gone or not.  
+    - I don't know what I value. I don't know what my aspirations are in life. I feel emotionally flatlined in all respects. I don't know what I'm working towards or what its all for.   
+    - Everyday I just feel super lonely and empty, and I have slept well in such a long time.   
+    - I just need to know. It almost feels like I don't show emotions. But, when I do, it feels like I'm faking it.   
+    -  I just feel emotionless a lot of the time.   
+    - I'm just so tired and I don't know what to do.    
+    - I feel like a broken person and all the therapist, and all the psychologist were no help.   
+    - I just can't feel sadness or being happy I just feel numb my friends I just feel they hate me.   
+    - My life just doesn't seem to get any better, anytime something good happens something terrible happens.   
+    - I always feel like no one gives a shit about me or my feelings and would always close up my emotions.   
+    - Every night I just feel miserable, a empty void inside and I just don't want to deal with this life anymore.    
+    - I can't even remember the good times I've had, instead I remember terrible things I've done and dealt with.   
+    - I feel so bitter whenever I see people walking together on campus and smiling.   
+    - Nothing really gives me joy   
+    - I've been so confused and lost and apathetic about everything. I don't care anymore about grades or school, or even my friends or family.    
+    - Sometimes I even forget that I'm alive because all I do just sleep.    
+    - My bestfriend died and I feel completely empty inside.   
+    - I have no plans for future, I don't have goals or dream. I feel just lazy and empty shell.   
+    - I feel like I'm drowning in meaninglessness. I can surrender to the void.   
+    - Everyday I just feel super lonely and empty, and I have slept well in such a long time. Feeling depressed and down the whole day and I can't even sleep    
+    - I don't get joy by doing anything.    
+    - I am crying constantly and nothing motivates me to do anything, I have no energy.    
+    - I get numbness and it won't let me work or have fun, just constantly staring into nothing.   
+    - I am moving out of my parent's home for the first time, and I feel completely empty.   
+    - I feel like nobody can relate to me and my experiences. I feel like there's no one to talk about and there's not even a point of talking to anyone.   
+    - I feel like a fucking alien without and heart and soul because everyone was so different to me.   
+    - I have hit the rock bottom of life and I don't know anything anymore. I feel extremely tired and unmotivated to think about anything.   
+    - I'm not even sure why anymore, but I want to kill myself. I just feel so empty.   
+    - I have lost all excitement for anything. I don't even care that I am graduating and don't even care that I made it when everybody else thought I wouldn't.   
+    - I have a good job, family but yet fill feel empty inside.   
+    - I'm surrounded by people I care about who care about me and I feel nothing, I just want them all gone, I just want to be alone.    
+    -  I am becoming more numb and careless which is complete different from my natural personality, today is my physics exam and I have no idea what to do now?   
 
 
 
@@ -393,12 +390,80 @@ nlu:
     - the only thing keeping me from slashing my wrists into a diced mango is my self harm tracker app gives me cooler colour themes for staying clean for at least 30 days   
     - My therapist said I was the most extreme and prolonged self harm case her branch has ever had in her 15 years of work there   
     - Im constantly berating myself for being weak and not going deeper.   
-    -  I hate myself deeply for it but anytime I see someone here younger than me with bigger/more/deeper scars i only feel like a failure bc mine aren't as bad.   
+    -  I hate myself deeply for it but anytime I see someone here younger than me with bigger/more/deeper scars i only feel like a failure bc mine aren't as bad.
+    
+
+- intent: sad
+  examples: |
+    - One year during christmas, i did not get a single gift. It was a rough day for me. &&& sad
+    - I got recently got three rejection letters for 3 different jobs in a matter of a week and a half. That was a painful experience.  
+    - I felt sad when my dog passed away. It was a pet that I had since I was 3 years old, and was one of the saddest days of my life. 
+    - I was in a situation where I missed out on making some money, that caused me not to be happy. 
+    - When I realized all the chocolate was gone, after a long day.  
+    - I just found out they are not making a sequel to a movie I like. 
+    - A few years ago when my grandmother died unexpectedly. 
+    - I shouldn't have to cook on my birthday. This is when I miss having a boyfriend. 
+    - My mom has arthritis in her neck, and the pain seems to be traveling down now. 
+    - My birthday was last weekend, and no one wished me a Happy Birthday. 
+    - I was told my cat only has a few weeks to live. 
+    - My dog died unexpectedly. 
+    - I really got closer with the girl that I met on Tinder, to the point we were dating. Then randomly after 4 days, she says she doesn't want to date me and stopped talking. 
+    - I miss my old job. It used to be fun. 
+    - I was very sad when I watched the ending to Orange is the New Black. They told the Mexican prisoner she was free and then she wasn't.
+    - My cat passed away. I am so hurt right now.
+    - When i first joined college i failed most of my units because i had underestimated how good someone needs to prepare before going for an exam paper.
+    - My girlfriend dumped me the other day. 
+    - My wife forgot it was my birthday. 
+    - Yesterday I found out that my best friend was stealing money from me. I thought I could trust him but I guess not. I am devastated that he was ripping me off.
+    - It was mothers day and I was feeling bummed because she won't speak to me. 
+    - Yesterday I was notified that  Idint get a promotion and I am really upset. 
+    
+    
+- intent: annoyed
+  examples: |
+    - My car was involved in a hit and run! Good thing it was just parked on the street but I'm annoyed I have to pay the bill. 
+    - My friend is annoying me. 
+    - I recall this time when I was making a pizza and I got an important call from my boss. I had to talk with him for about 15 minutes and when I came, I realized the pizza had been burnt in the oven. I was very annoyed because I worked hard to make it! 
+    -  My friend is such a narcissist sometimes. He seems to think that he is the best looking, strongest guy ever and he constantly tries to brag about it to me and compare himself to me.
+    - I was in morning rush hour traffic, and the driver in front of me was putting on makeup. Her complete lack of attention meant that she did not notice when the car in front of her moved,  and we missed the light.  It is a LONG light that we had to sit through AGAIN. Ugh!
+    - I was so irked when I took my car in for an oil change.  The salesman pushed a bunch of things I know I didn't need.
+    - I accidentally left the lights on in my car and killed the battery was super awful.
+    - I hate it when people make loud breathing noises while eating a sandwich.
+    - My internet is terrible .It is always cutting out. 
+    - My brand new car got hit from behind. 
+    - Someone keyed my brand new car. 
+    - I went on my vacation to Mexico. There is very frequently electricity outage and its bothering me a lot. 
+    - People are always parking in front of my apartment. It is really getting on my nerves. 
+    - The maintenance of my apartment is terrible. They take foreover to fix everything. 
+    - My boss didn't accept my vacation plan. 
+    - I really hate when people who work in customer service but don't want to help the customer. 
+    - My son drew all over my car with a permanent marker. 
+    - My dog pooped on my new carpet last night. 
+    - I was cut off in traffic other day and it caused me to spill my coffee.
+    - President trump annoys me.
+    - Hillary Clinton annoys me. 
+    - I get annoyed with people at stire that reach around me.
+    - I went to the gym other day and I forgot my workout shoes. I had to drive all way home in rush hour to get them. 
+    - My son woke up so early this morning. I barely got any sleep. 
+    - My job annoys me sometimes. People always have issues no matter what you do. 
+    - I was really annoyed when my boss didn't treat me well in the conference. 
+    - We got a new employee at work and I don't know why but it always bothered me that he always decided to sit at my station even though there was always an empty desk next to my usual one.
+    - I can't believe what just happened. 
+    - Last month I had an argument with a friend and he threw me into jail with false claims that I had assaulted him. 
+    - I asked my son to do the dishes. He said he had to play his video game and he would do it later. Well he never did them.
+    - My neighbour keeps parking my spot and its really gets on my nerves.
+    - My neighbor's party is still going on. It is so loud and they wont listen when I say to slow down the music. I need to wake up early tomorrow.
+    - My husband always stops at the store on his way home from work. We are all waiting on him for so long while he just takes his time.
+    - I can't believe my neighbors are putting up pictures at this time of night.
+    - I ordered a meal from a restaurant and when I went there to pick it up they claimed they never received it. I was really upset and they did not offer to correct the situation.
+    - My friend borrowed a book from me but he lost it. It was one of my favorites and it's not so easy to replace.
+    - This lady in line behind me in Target wouldn't shut up. She was on her bluetooth screaming to the person she was talking to.
+    - My brother doesn't stop teasing about the pimple on my face.    
 
 
 - intent: afraid
   examples: |
-    -  i used to scare for darkness 
+    - I used to scare for darkness 
     - Last year a tree fell on my house while my family was at home. The tree broke through the ceiling just a few feet away from my daughter. The experience was terrifying. 
     - Two years ago, i was admitted in hospital. I was not well. I felt afraid whether i would be alive. But fortunately, i am live 
     - I am concerned about the financial situation of my employer. 
@@ -428,7 +493,7 @@ nlu:
     - One time me and my friends went to the movies and one of them ate some edibles (weed) and started to panic. I got really worried that something might be wrong but he was just too high and we just waited until he was more sober after we left the movie early. 
     - One time i got stuck in a storm and was scared i might get swept away 
     - I felt scared when I had to go to the doctor to have a lump checked out on my side. I thought it was going to be for the worse. 
-    -  I had a dear friend end up the hospital after getting into a bicycling accident. It was a scary time. 
+    - I had a dear friend end up the hospital after getting into a bicycling accident. It was a scary time. 
     - When I was a child I was in a tornado. 
     - While working at a restaurant I was robbed 
     - I finally saw the movie with that scary Japanese girl with white skin. I now believe I can't sleep without the lights on lol. 
@@ -492,7 +557,7 @@ nlu:
     - I owe some guys some money after playing a poker game. They know where I live and I see them driving by late at night. 
     - The other day I found an iguana in my backyard. I hate iguanas! 
     - I do not like to be in the woods at night. The coyotes make scary noises! 
-    - i was exposed to lice at work 
+    - I was exposed to lice at work 
     - I have kids aged from 14-21. I am always worrying that something bad will happen to them. I couldn't live with myself if something did. I love them so much! 
     - I was out walking late last night and seen someone following me. They looked like they were carrying a weapon.  
     - I am scared I won't like my new neighbors. That's how it usualy goes around here 
@@ -1880,234 +1945,234 @@ nlu:
 - intent: apprehensive
   examples: |
     - Someone offered me a job online to make a lot of money.  &&& apprehensive
-- I was apprehensive to get married. 
-- Had HELLP syndrom with first child.  Spent all 9 months being pregnant with 2nd child worrying about the same thing happening. 
-- Back in October of last year I had my first drink. At that time I had never drank or tried any drugs or anything, so I was very nervous about trying anything mind altering like that. 
-- I just started working out and wasn't sure how to start. 
-- Buying my first home, and I'm worried about all the expenses that might happen besides the mortgage. 
-- i was on a date with a new girl.  we were walking to a concert.  some toughs were approaching the other way. 
-- I am tired of working midnights, but scared to start something new 
-- Who knows what the future hold? All is in Gods hands! Take no thought about the morrow 
-- I am very apprehensive these days. 
-- Me and a few friends got offered to go to this party off campus. It seemed really sketchy but it turned out fine and it was a lot of fun. 
-- I'm worried about my daughter starting middle school next week. 
-- Kind of scared to file for my financial aid this year. Not sure if it will cover all my expenses for the semester. If it doesn't, I don't know how I'll make ends meet and attend school. 
-- I was nervous when I was trying to drive where I wasn't familiar 
-- I had to make an out of town trip on a unfamiliar road. I was a little uneasy about it. 
-- I was a little on the fence about letting my daughter go to a party 
-- I dont think Im going to vote anymore 
-- I feel apprehensive about an upcoming job interview. 
-- this car nearly hit me head on while driving down the freeway at a medium speed 
-- drinking on lunch break 
-- I was not sure what to think when I changed schools. I was just not sure how it would go 
-- When I first started my current job I was very scared. I had to psyche myself up in order to just walk through the front door. I had never worked in that field before and was terrified I would do a bad job. I read self help books with positive outcomes in order to get through the first few weeks. 
-- I don't think I want to go on a cruise. 
-- I always get a little scared when moving into a new neighbor hood. I didn't have any problems the last time though. 
-- I was shy when going to a new school in high school. I did not know anyone 
-- I was a little nervous for placement testing 
-- I'm starting a new job in September. It makes me a bit nervous and scared about how I will fit in 
-- I am not so sure how I feel about buying a used car. I don't know if it will be good  quality. 
-- I start a new job tomorrow and I can't sleep. I'm so nervous about it, and I feel a bit ill 
-- One time I got invited to a shady party and I thought that it was a bad idea to go. We did though and it was a great time. 
-- I went paragliding yesterday. 
-- son applying to colleges 
-- I had been laid off from a job I'd had for 25 years. I wasn't sure what would happen 
-- My son goes to kindergarten in a week and I can't imagine him being gone through the day. It's hard to not be worried about how he'll be at school. 
-- I am a little nervous about dating 
-- I'm a little unsure if I should take a higher position with better pay due to the added stress of the job. 
-- I have my big pilot certification test coming up. I am so worried I forget all the answers to the test. I don't know what I would do if I don't pass! 
-- I am a little scared. I found out my neighbor is a satan worshiper. 
-- I was having a test today. This one was for my graduation. 
-- I have to go to Mexico for business in two weeks.  I have never been and I am nervous 
-- I had to have a scheduled c-section with my 2nd child.  But then, about a week before it was scheduled, my blood pressure went up and they decided to do it right then. 
-- The feeling I had the day before my final exam  
-- I was not sure whether I should date this girl. She was too good to be true 
-- My friend said they wanted to talk to me and didn't sound like their usual on the phone. 
-- I want to ask a girl out on a date, but I'm not sure if I should. She doesn't seem that interested in me. 
-- I just went for my yearly physical and thought everything was good, but I got a call that the doctor wanted to talk to me about some blood work.  Its awful because they aren't open until tomorrow so they haven't gotten back to me yet.   
-- im a little on the fence if i should ask for time off this week 
-- My friend has a habit of going nuts every vacation and I want to cancel ours. 
-- I was a little unsure about going to see a movie alone tonight. It just didnt feel right 
-- I'm not sure if i sound join the Comic Book Club at school. 
--  when my mom is dying I dont know what to do. I felt scared for the next thing will happened to her and to us.  
-- I want to send my son to daycare, but I think he is too little. He doesnt talk and I don't trust people like that. 
-- My husband wants to take a job in another state. I am just not sure that it's a good idea to uproot the kids like that right now. 
-- When selling my house and the buyer wanted to move in prior to closing date.  
-- Feeling strange about payday. It is a stressful time and even more so now when dealing with mental illness of the one getting the payday. 
-- I saw a stranger on the side of the road who needed a ride. I was not sure whether or not to pick her up. 
-- I am really nervous about work tomorrow!  I am supposed to be presenting at a meeting in front of upper management and feel uneasy. 
-- well I started my new job this week... It is weird to be with people who don't know me 
-- I went to the doctor yesterday due to an ongoing cough and tiredness.  They did some tests and now I am waiting for the results 
-- I recently ran by an ad online for this online swimsuit store. It seemed to be based outside of the US so I was a bit skeptical to order from them. I ordered anyway and will wait to see what happens! 
-- I don't think I should get on my flight in the morning. 
-- I want to visit my friend who lives in a large city an hour away, but I've never driven in such a large city. 
-- I really don't want to go to the dentist next week.. 
-- When I was alone in my home, someone knocked the door forcefully. I just started to feel panicky and breathless.  
-- Me and some friends got invited to this shady college party. We were hesitant to go but we did and it was great. 
-- I ma just waiting for my next vacations 
-- I recently started dating this girl but Ive already seen some red flags. Not sure if I should continue seeing her or not. 
-- I'm a little uneasy about making it through the last half of this year. 
-- I am going to do scuba lessons in a couple weeks.  For some reason I am really nervous about it. 
-- I am receiving notifications from a friend. They are saying that I am owing them money. 
-- I have done dives off small diving boards for long time. One day, I decided to dive off big diving boards wondering what would happen. 
-- I was informed by my doctor that I had to have a biopsy of a suspicious mass. The whole process of waiting for the test and results caused a lot of anxiety. 
-- I have a health check up tomorrow, but I am a bit nervous to go. It's been a while. 
-- I was not sure when it came to the dmv. I did not want to go there 
-- I do not want to go to school on Monday. 
-- When waiting for my final grades before college graduation. 
-- I don't think I want to meet this person off Craigslist to purchase a couch. 
-- Someone I am kind of in a relationship with wants to come over this weekend and I am not sure about it. It's too soon after so much has happened and I don't want to deal with anymore upset. 
-- I was not sure if I wanted to start my new job. I was just nervous 
-- I am going skydiving for the first time and I am not sure what to expect 
-- I'm dreading the loss of my parents. 
-- I was a bit nervous on my wedding day. Would my wife really only be with just me for the rest of my life? 
-- The first time I donated blood, I instantly regretted signing up. I was so nervous of the big needle, but when I finally donated it was totally nothing. 
-- I a little afraid to meet my boyfriends parents. I don't think we are meant to be anyway 
-- I have to call my landlord about being late on the rent. I really don't want to have this conversation. 
-- I'm thinking of trying out a dating app. I don't know how I feel about meeting strangers from the internet though 
-- I had a difficult job interview. I need a new job as I am unemployed. 
-- Feeling a bit scared about the weekend. I have a hard time with my anxiety sometimes and I will be alone a lot this weekend. 
-- I just received a job offer. I should be happy but there were some red flags in the interview. Not sure if I should take it. 
-- Yesterday, my mom came home late. I was very worried. I prayed until she came home. 
-- I am feeling quite a lot of trepidation about the weekend coming up. It might involve seeing someone I am kind of involved with and I am not ready to see them again. 
-- I'm going sky diving and kind of terrified. 
-- I think I'm going to try a dating app. I'm worried about being murdered though. 
-- I got a job offer at a different company and the benefits sound good but I'm not sure if i should take it 
-- I am not so sure about my daughters new school. They don't even have to wear backpacks 
-- My friends tried to convince me to jump into the lake. 
-- I really do not want to go visit my Dad. 
-- I was opening the results of my degree last month and I was really worried I hadn't done well. I had worked really hard and put a lot of effort in. 
-- I have an important job interview this week 
-- I hae an important job interview this week 
-- ordering something onliine 
-- My friend wants to take me to a haunted house at the carnival this weekend. I really hate haunted house. But I know my friend really likes them. I'm worried about having to go through it. 
-- was late to an appointment recently because I got stuck in a traffic jam 
-- I am leaving to go on a three month backpacking trip. Im getting cold feet about it though. 
-- I want to take a writing class, but I won't know anyone and haven't been to school in so long. I'm not sure whether I should do it. 
-- When I first started working out, I was very nervous and apprehensive while lifting weights. 
-- I am weary about ordering chicken now. It made me really sick once 
-- I am going horseback riding for the first time this weekend.  I am really nervous for some reason though! 
-- I am going to ask my boss for a raise and the end of this week.  I feel I really deserve it but I am really nervous to bring up the subject to him. 
-- I am worried about attending my firearms class. I think I will fail the test. 
-- Tomorrow, I will be evicted from my appartment. I don't know what to do. 
-- My husband says he stopped drinking but I'm reluctant to believe him 
-- I felt this way while waiting for my son to be born. 
-- My wife wants to have kids, but I'm not really sure I'm ready. I'd like kids one day, but maybe not right now. 
-- I caved and ordered online grocery. 
-- every time a new restaurant opens , i kinda dont trust it  
-- Me and my wife booked a cruise ride. I am fearful of sea rides and have an intuition something going to happen 
-- I do not want to go to school Monday. They will laugh at me. 
-- I am nervous about an interview I have this week 
-- I injured in an accident. I worried to go home, since my dad will scold me. 
-- One of my friends told me that I was doing this math problem wrong. I was hesitant to believe that but it turned out that he was right. 
-- I am worried about an upcoming interview. 
-- I got invited to a party out of the blue in a weird part of town. I decided to go to it anyway and it was so fun! 
-- I feel apprehensive every time I have to make a speech  
-- my friends had to push my down the slide, i wouldnt go 
-- I made a mistake at work. My manager have set a meeting to talk about it. I am a little bit worried. 
-- My friend has been very distant lately. 
-- My new job promised a raise at the end of 90 days, but I still haven't heard anything. 
-- The hotdog I had tasted pretty funky. I'm not sure if it's gone bad. 
-- Starting some new herbs and I am a bit scared I might have bad effects. I have SUCH a sensitive digestive system. 
-- We keep getting these flood warnings, but they never happen when we're told it will. 
-- There's this guy that keeps wondering around my home the same time each day. 
-- I had to have a medical test done about a month ago.  I waited for two weeks for the results and it was so nerve-wracking. 
-- Im not sire my boyfriend is right for me. 
-- Once, I was pulled into the manager's office at my work and was offered a position that I felt that I wasn't really ready for. I had spent about the next day thinking over and over how to turn it down and worrying about if it affect my current job. 
-- I'm worried about an interview I have on Monday 
-- My friend invited me on a cruise but I wasn't sure about it because I get seasick easily. 
-- I recently started working out again and I was very apprehensive in the beginning. 
-- I am worried about starting my new job tomorrow. I am nervous about making good first impressions. 
-- taking a new cbd oil 
-- I'm afraid to check my messages. The last line I saw from my friend is "we broke up". 
-- I am not sure that I want to apply for a transfer with my job. I would make more money but I would have to move 
-- I homeschool and am used to schooling one child but now I started 2 kids in school this year and I'm not sure if I'll be able to juggle it well. 
-- I'm not really sure what I'm supposed to be doing with my life right now, but I'm trying to at least get back home. 
-- I'm long-distance with my girlfriend right now, where she lives almost 1,000 miles away. I live on the east coast, she lives in the midwest. She has a good job, and I'll just be graduating college, so she's established. She's determined that I need to move to her, but I don't feel great about the idea. 
-- I have big two month trip coming up. Im getting a little nervous about going.  
-- I really like a new perfume that I've tried but it's so expensive I don't know if I should get it 
-- I am not sure about my new job. I was excited but I dont think its right for me 
-- I have first date on Friday and I'm really nervous. I haven't been on a date in a while. 
-- I have to have some medical tests done.  The place that schedules them cannot get me in until September - this is very nerve wracking. 
-- I just got a new job offer, but I don't know what I should do. 
-- I have long three month trip coming up soon. I am feeling like I shouldnt go. 
-- I'm seeing my boyfriend for the first time in person for 1.5 years because he's been serving in the Army.  I'm excited but have butterflies too and am nervous about it. 
-- I just applied for a job. I'm really nervious about them not hiring me. 
-- My friend wants me to go hiking with him this weekend on some sort of scary trail where there's thin walking trails along some dangerous ledges... Not really my thing, but he's been kind of lonely recently 
-- Just got a new position after the old manager was fired 
-- As a teenager my family moved around a lot. I never looked forward to entering a new school. 
-- When I used to be prescribed on Adderall and the dosage was too high I would get jumpy and paranoid. 
-- Had my employee review this week and my boss has been putting it off for 4 days.  Shee keeps says she'll do it and then puts it off.  I still don't have the results and I've been worrying about it all week.  
-- I was nervous when I sang a song at a concert the other night. 
-- There was a time when I finally dredged up the courage to visit my neighbor's chickens. I was really scared that they would peck at me, because I've heard that the roosters are very angsty and territorial. 
-- So, my mom was missing for a lot of years, but I searched and found her. It will be interesting to see if she still loves me when we meet in person again. 
-- I was hesitant to run a marathon with my friend 
-- One time I went cliff jumping with my friends. I was scared to go since I'm afraid of heights but I still managed to do it! 
-- One day I walked into a room full of smoke.  My father use to smoke and he was not always nice so it reminded me of him.  As i walked into the room I thought of all the mean things he had done. 
-- I'm 47 years old and have been taking psychotropic meds for well over 30 years. I'm having more and more trouble with them working properly.  
-- When my daughter told me she had news for me over the phone, her tone made me so apprehensive. Turns out, she just wanted to tell me she scratched the car. 
-- I really love a good scare, but I'm also kind of a chicken. My friends convinced me to go to the annual haunted house at my county fairgrounds many years ago and I was super excited. Once we were there, though, I got really nervous and wasn't sure I wanted to go in! 
-- I was to check my name on the list of students that passed, I was so tenses 
-- I am a little bit uncomfortable with knowing that my Ex has HIV 
-- We were driving on the interstate and I noticed a woman hitchhiking. I wanted to pull over to help but something told me not too. 
-- I'm waiting to hear back on whether or not I got the loan approved. I'm running in circles all bent out of shape about it. 
-- I'm about to leave the job I've had for 3 years and go to a new company.  
-- I was gardening last weekend and I had to move a bunch of pots. I knew there might be spiders so I took my time to look carefully.  
-- I got my associate's degree last year, and I had to get an A on my last final exam to get an A in the class.  It was three days of intense waiting. 
-- When my kid didn't get off of the bus yesterday 
-- One time I just signed up for a gym and on the first days I was supposed to go, I signed up for a free lifting workout with the trainer there. Before I left I was wondering to myself if I should go or not, and wasn't too sure what was the best plan of action.  
-- I've been thinking about applying for a job that looks really great. However, I'm not sure if I'm qualified for it. 
-- I can't make decisions when buying things if there is too many choices 
-- This guy on the phone kept asking for info and i was worried it was a scam 
-- Just had a wreck the driver that hit me was not insured not sure how this will turn out 
-- Approaching a sheer-drop water-slide. 
-- I remember going to a theme park and wanting to ride a roller coaster. I'm afraid of heights and this was my first experience riding a roller coaster. I ended up enjoying the experience and now I love roller coasters.  
-- I was apprehensive a few weeks ago when I got on this rickety roller coaster. It was an old wooden one and kind of scary.  
-- I just moved across country and i feel a bit unsure if this was the right move for me. 
-- I was reallt nervous about my first date with my girlfriend because it had been a long time since I'd dated anyone. 
-- So the president of the school's pto and I don't get along. It makes having to go to this meeting today hard. 
-- I went to a water park onetime and my top came off while I was going down a slide 
-- when my daughter wanted to get dropped off at the movies 
-- I'm supposed to visit my sister's family for thanksgiving this year, but I'm not really looking forward to it. We haven't gotten along over the past several years.  
-- Someone knocked on my door the other day. I peaked around the corner so they could not see me. I don't know anyone and was alone so I wasn't sure if I should answer the door 
-- I was walking to my car in a parking deck and heard a strange noise.  Then I saw a guy and he was walking away from me.  As I passed him I realized the noise I heard was breaking glass.  He was breaking into the cars. 
-- I hesitated before getting on the rollercoaster. 
-- I was starting a new job and could not sleep the night before. I was feeling extremely anxious about the decision to change jobs. 
--  was at the store the other day and this random lady kept asking me my political party. She was very weird.  
-- I want to try to eat sushi someday.  I am afraid I will get sick though. 
-- I don't know if I should apply to university or not. 
-- My friend ordered me some sushi but fish food scares me. I didn't feel like taking a bite. 
-- I've been applying for jobs lately, and though I want a new career, I also have to apply for anything I'm close to qualified for to get paid even though I don't want to in case I get stuck there. 
-- Sometimes I'm afraid to ride the city bus because you never know what kind of drama will unfold. 
-- I need to buy a new car. I am looking at something that uses alternative fuel, but I cant decide what kind to buy. 
-- avoided placing an order 
-- I really do not want to go to the concert tomorrow. 
-- I am enrolled in a motorcycle class tomorrow!  I am a little nervous though! 
-- I'm edgy about the last half of this year. I'm having rough financial times. 
-- When I was at the pool and some guy came in wearing all dark clothing and a bookbag.  
-- I ate at  a very popular restaurant in my city last night. This morning I woke up to the news saying they found out that they were not serving real meat. 
-- I met a stranger once. He asked me for a ride. 
-- I had to go to a new doctor last week. I was a little unsure and nervous 
-- I was invited to a party today. I am not sure I want to go. 
-- A homeless person begged me for money the other day. I wasn't sure if I should give it to him because I didn't want him to spend it on drugs or something 
-- This guy called from the phone company asking for very personal info 
-- I heard a coworker talking about welfare and other social support in a very negative light. I was offended  but decided to hold my tongue. 
-- I decided to change jobs lately, but I am now not sure I will adapt to this new job. 
-- A couple years ago I went back to college and it had been a little over 20 years since I had dropped out.  Needless to say it was a little intimidating. 
-- I want to take my kids to a buffet. I am afraid it will be a waste of my oney 
-- I used to be nervous if someone tried to confront me or start a fight...but since I've taken up boxing mma and wrestling I really don't fear anybody 
-- We just bought a used car and we've already had to take it to the shop 
-- I have felt this way while getting ready for graduate school. 
-- Tomorrow is the first day I start a new job and career. 
-- I always feel on edge when the puppies are outside for too long.  It makes me worry too much. 
-- This girl just invited me out on a date. She seems sweet and I'm interested.. more interested in her than I am this other girl I've been seeing for a few weeks. But I feel bad just dropping this girl I've been seeing recently. Like, wouldn't that be rude? 
-- I felt uneasy as I looked at the looming rollercoaster.  
-- I'm not sure if my boyfriend wants to get married yet. I won't rush him though. 
-- I have this feeling because I am applying to graduate school and I am anxious. 
-- I'm going to eat sushi for the first time this weekend, but I am a little nervous. 
-- We're going roller coaster riding this weekend 
-- My current employer is having big financials problem. I am afraid that the company will go into bankruptcy. 
-- I have an overseas trip coming up. I have never been and I am feeling a little scared right now about going. 
+    - I was apprehensive to get married. 
+    - Had HELLP syndrom with first child.  Spent all 9 months being pregnant with 2nd child worrying about the same thing happening. 
+    - Back in October of last year I had my first drink. At that time I had never drank or tried any drugs or anything, so I was very nervous about trying anything mind altering like that. 
+    - I just started working out and wasn't sure how to start. 
+    - Buying my first home, and I'm worried about all the expenses that might happen besides the mortgage. 
+    - I was on a date with a new girl.  we were walking to a concert.  some toughs were approaching the other way. 
+    - I am tired of working midnights, but scared to start something new 
+    - Who knows what the future hold? All is in Gods hands! Take no thought about the morrow 
+    - I am very apprehensive these days. 
+    - Me and a few friends got offered to go to this party off campus. It seemed really sketchy but it turned out fine and it was a lot of fun. 
+    - I'm worried about my daughter starting middle school next week. 
+    - Kind of scared to file for my financial aid this year. Not sure if it will cover all my expenses for the semester. If it doesn't, I don't know how I'll make ends meet and attend school. 
+    - I was nervous when I was trying to drive where I wasn't familiar 
+    - I had to make an out of town trip on a unfamiliar road. I was a little uneasy about it. 
+    - I was a little on the fence about letting my daughter go to a party 
+    - I dont think Im going to vote anymore 
+    - I feel apprehensive about an upcoming job interview. 
+    - this car nearly hit me head on while driving down the freeway at a medium speed 
+    - drinking on lunch break 
+    - I was not sure what to think when I changed schools. I was just not sure how it would go 
+    - When I first started my current job I was very scared. I had to psyche myself up in order to just walk through the front door. I had never worked in that field before and was terrified I would do a bad job. I read self help books with positive outcomes in order to get through the first few weeks. 
+    - I don't think I want to go on a cruise. 
+    - I always get a little scared when moving into a new neighbor hood. I didn't have any problems the last time though. 
+    - I was shy when going to a new school in high school. I did not know anyone 
+    - I was a little nervous for placement testing 
+    - I'm starting a new job in September. It makes me a bit nervous and scared about how I will fit in 
+    - I am not so sure how I feel about buying a used car. I don't know if it will be good  quality. 
+    - I start a new job tomorrow and I can't sleep. I'm so nervous about it, and I feel a bit ill 
+    - One time I got invited to a shady party and I thought that it was a bad idea to go. We did though and it was a great time. 
+    - I went paragliding yesterday. 
+    - son applying to colleges 
+    - I had been laid off from a job I'd had for 25 years. I wasn't sure what would happen 
+    - My son goes to kindergarten in a week and I can't imagine him being gone through the day. It's hard to not be worried about how he'll be at school. 
+    - I am a little nervous about dating 
+    - I'm a little unsure if I should take a higher position with better pay due to the added stress of the job. 
+    - I have my big pilot certification test coming up. I am so worried I forget all the answers to the test. I don't know what I would do if I don't pass! 
+    - I am a little scared. I found out my neighbor is a satan worshiper. 
+    - I was having a test today. This one was for my graduation. 
+    - I have to go to Mexico for business in two weeks.  I have never been and I am nervous 
+    - I had to have a scheduled c-section with my 2nd child.  But then, about a week before it was scheduled, my blood pressure went up and they decided to do it right then. 
+    - The feeling I had the day before my final exam  
+    - I was not sure whether I should date this girl. She was too good to be true 
+    - My friend said they wanted to talk to me and didn't sound like their usual on the phone. 
+    - I want to ask a girl out on a date, but I'm not sure if I should. She doesn't seem that interested in me. 
+    - I just went for my yearly physical and thought everything was good, but I got a call that the doctor wanted to talk to me about some blood work.  Its awful because they aren't open until tomorrow so they haven't gotten back to me yet.   
+    - im a little on the fence if i should ask for time off this week 
+    - My friend has a habit of going nuts every vacation and I want to cancel ours. 
+    - I was a little unsure about going to see a movie alone tonight. It just didnt feel right 
+    - I'm not sure if i sound join the Comic Book Club at school. 
+    -  when my mom is dying I dont know what to do. I felt scared for the next thing will happened to her and to us.  
+    - I want to send my son to daycare, but I think he is too little. He doesnt talk and I don't trust people like that. 
+    - My husband wants to take a job in another state. I am just not sure that it's a good idea to uproot the kids like that right now. 
+    - When selling my house and the buyer wanted to move in prior to closing date.  
+    - Feeling strange about payday. It is a stressful time and even more so now when dealing with mental illness of the one getting the payday. 
+    - I saw a stranger on the side of the road who needed a ride. I was not sure whether or not to pick her up. 
+    - I am really nervous about work tomorrow!  I am supposed to be presenting at a meeting in front of upper management and feel uneasy. 
+    - well I started my new job this week... It is weird to be with people who don't know me 
+    - I went to the doctor yesterday due to an ongoing cough and tiredness.  They did some tests and now I am waiting for the results 
+    - I recently ran by an ad online for this online swimsuit store. It seemed to be based outside of the US so I was a bit skeptical to order from them. I ordered anyway and will wait to see what happens! 
+    - I don't think I should get on my flight in the morning. 
+    - I want to visit my friend who lives in a large city an hour away, but I've never driven in such a large city. 
+    - I really don't want to go to the dentist next week.. 
+    - When I was alone in my home, someone knocked the door forcefully. I just started to feel panicky and breathless.  
+    - Me and some friends got invited to this shady college party. We were hesitant to go but we did and it was great. 
+    - I ma just waiting for my next vacations 
+    - I recently started dating this girl but Ive already seen some red flags. Not sure if I should continue seeing her or not. 
+    - I'm a little uneasy about making it through the last half of this year. 
+    - I am going to do scuba lessons in a couple weeks.  For some reason I am really nervous about it. 
+    - I am receiving notifications from a friend. They are saying that I am owing them money. 
+    - I have done dives off small diving boards for long time. One day, I decided to dive off big diving boards wondering what would happen. 
+    - I was informed by my doctor that I had to have a biopsy of a suspicious mass. The whole process of waiting for the test and results caused a lot of anxiety. 
+    - I have a health check up tomorrow, but I am a bit nervous to go. It's been a while. 
+    - I was not sure when it came to the dmv. I did not want to go there 
+    - I do not want to go to school on Monday. 
+    - When waiting for my final grades before college graduation. 
+    - I don't think I want to meet this person off Craigslist to purchase a couch. 
+    - Someone I am kind of in a relationship with wants to come over this weekend and I am not sure about it. It's too soon after so much has happened and I don't want to deal with anymore upset. 
+    - I was not sure if I wanted to start my new job. I was just nervous 
+    - I am going skydiving for the first time and I am not sure what to expect 
+    - I'm dreading the loss of my parents. 
+    - I was a bit nervous on my wedding day. Would my wife really only be with just me for the rest of my life? 
+    - The first time I donated blood, I instantly regretted signing up. I was so nervous of the big needle, but when I finally donated it was totally nothing. 
+    - I a little afraid to meet my boyfriends parents. I don't think we are meant to be anyway 
+    - I have to call my landlord about being late on the rent. I really don't want to have this conversation. 
+    - I'm thinking of trying out a dating app. I don't know how I feel about meeting strangers from the internet though 
+    - I had a difficult job interview. I need a new job as I am unemployed. 
+    - Feeling a bit scared about the weekend. I have a hard time with my anxiety sometimes and I will be alone a lot this weekend. 
+    - I just received a job offer. I should be happy but there were some red flags in the interview. Not sure if I should take it. 
+    - Yesterday, my mom came home late. I was very worried. I prayed until she came home. 
+    - I am feeling quite a lot of trepidation about the weekend coming up. It might involve seeing someone I am kind of involved with and I am not ready to see them again. 
+    - I'm going sky diving and kind of terrified. 
+    - I think I'm going to try a dating app. I'm worried about being murdered though. 
+    - I got a job offer at a different company and the benefits sound good but I'm not sure if i should take it 
+    - I am not so sure about my daughters new school. They don't even have to wear backpacks 
+    - My friends tried to convince me to jump into the lake. 
+    - I really do not want to go visit my Dad. 
+    - I was opening the results of my degree last month and I was really worried I hadn't done well. I had worked really hard and put a lot of effort in. 
+    - I have an important job interview this week 
+    - I hae an important job interview this week 
+    - ordering something onliine 
+    - My friend wants to take me to a haunted house at the carnival this weekend. I really hate haunted house. But I know my friend really likes them. I'm worried about having to go through it. 
+    - was late to an appointment recently because I got stuck in a traffic jam 
+    - I am leaving to go on a three month backpacking trip. Im getting cold feet about it though. 
+    - I want to take a writing class, but I won't know anyone and haven't been to school in so long. I'm not sure whether I should do it. 
+    - When I first started working out, I was very nervous and apprehensive while lifting weights. 
+    - I am weary about ordering chicken now. It made me really sick once 
+    - I am going horseback riding for the first time this weekend.  I am really nervous for some reason though! 
+    - I am going to ask my boss for a raise and the end of this week.  I feel I really deserve it but I am really nervous to bring up the subject to him. 
+    - I am worried about attending my firearms class. I think I will fail the test. 
+    - Tomorrow, I will be evicted from my appartment. I don't know what to do. 
+    - My husband says he stopped drinking but I'm reluctant to believe him 
+    - I felt this way while waiting for my son to be born. 
+    - My wife wants to have kids, but I'm not really sure I'm ready. I'd like kids one day, but maybe not right now. 
+    - I caved and ordered online grocery. 
+    - every time a new restaurant opens , i kinda dont trust it  
+    - Me and my wife booked a cruise ride. I am fearful of sea rides and have an intuition something going to happen 
+    - I do not want to go to school Monday. They will laugh at me. 
+    - I am nervous about an interview I have this week 
+    - I injured in an accident. I worried to go home, since my dad will scold me. 
+    - One of my friends told me that I was doing this math problem wrong. I was hesitant to believe that but it turned out that he was right. 
+    - I am worried about an upcoming interview. 
+    - I got invited to a party out of the blue in a weird part of town. I decided to go to it anyway and it was so fun! 
+    - I feel apprehensive every time I have to make a speech  
+    - my friends had to push my down the slide, i wouldnt go 
+    - I made a mistake at work. My manager have set a meeting to talk about it. I am a little bit worried. 
+    - My friend has been very distant lately. 
+    - My new job promised a raise at the end of 90 days, but I still haven't heard anything. 
+    - The hotdog I had tasted pretty funky. I'm not sure if it's gone bad. 
+    - Starting some new herbs and I am a bit scared I might have bad effects. I have SUCH a sensitive digestive system. 
+    - We keep getting these flood warnings, but they never happen when we're told it will. 
+    - There's this guy that keeps wondering around my home the same time each day. 
+    - I had to have a medical test done about a month ago.  I waited for two weeks for the results and it was so nerve-wracking. 
+    - Im not sire my boyfriend is right for me. 
+    - Once, I was pulled into the manager's office at my work and was offered a position that I felt that I wasn't really ready for. I had spent about the next day thinking over and over how to turn it down and worrying about if it affect my current job. 
+    - I'm worried about an interview I have on Monday 
+    - My friend invited me on a cruise but I wasn't sure about it because I get seasick easily. 
+    - I recently started working out again and I was very apprehensive in the beginning. 
+    - I am worried about starting my new job tomorrow. I am nervous about making good first impressions. 
+    - taking a new cbd oil 
+    - I'm afraid to check my messages. The last line I saw from my friend is "we broke up". 
+    - I am not sure that I want to apply for a transfer with my job. I would make more money but I would have to move 
+    - I homeschool and am used to schooling one child but now I started 2 kids in school this year and I'm not sure if I'll be able to juggle it well. 
+    - I'm not really sure what I'm supposed to be doing with my life right now, but I'm trying to at least get back home. 
+    - I'm long-distance with my girlfriend right now, where she lives almost 1,000 miles away. I live on the east coast, she lives in the midwest. She has a good job, and I'll just be graduating college, so she's established. She's determined that I need to move to her, but I don't feel great about the idea. 
+    - I have big two month trip coming up. Im getting a little nervous about going.  
+    - I really like a new perfume that I've tried but it's so expensive I don't know if I should get it 
+    - I am not sure about my new job. I was excited but I dont think its right for me 
+    - I have first date on Friday and I'm really nervous. I haven't been on a date in a while. 
+    - I have to have some medical tests done.  The place that schedules them cannot get me in until September - this is very nerve wracking. 
+    - I just got a new job offer, but I don't know what I should do. 
+    - I have long three month trip coming up soon. I am feeling like I shouldnt go. 
+    - I'm seeing my boyfriend for the first time in person for 1.5 years because he's been serving in the Army.  I'm excited but have butterflies too and am nervous about it. 
+    - I just applied for a job. I'm really nervious about them not hiring me. 
+    - My friend wants me to go hiking with him this weekend on some sort of scary trail where there's thin walking trails along some dangerous ledges... Not really my thing, but he's been kind of lonely recently 
+    - Just got a new position after the old manager was fired 
+    - As a teenager my family moved around a lot. I never looked forward to entering a new school. 
+    - When I used to be prescribed on Adderall and the dosage was too high I would get jumpy and paranoid. 
+    - Had my employee review this week and my boss has been putting it off for 4 days.  Shee keeps says she'll do it and then puts it off.  I still don't have the results and I've been worrying about it all week.  
+    - I was nervous when I sang a song at a concert the other night. 
+    - There was a time when I finally dredged up the courage to visit my neighbor's chickens. I was really scared that they would peck at me, because I've heard that the roosters are very angsty and territorial. 
+    - So, my mom was missing for a lot of years, but I searched and found her. It will be interesting to see if she still loves me when we meet in person again. 
+    - I was hesitant to run a marathon with my friend 
+    - One time I went cliff jumping with my friends. I was scared to go since I'm afraid of heights but I still managed to do it! 
+    - One day I walked into a room full of smoke.  My father use to smoke and he was not always nice so it reminded me of him.  As i walked into the room I thought of all the mean things he had done. 
+    - I'm 47 years old and have been taking psychotropic meds for well over 30 years. I'm having more and more trouble with them working properly.  
+    - When my daughter told me she had news for me over the phone, her tone made me so apprehensive. Turns out, she just wanted to tell me she scratched the car. 
+    - I really love a good scare, but I'm also kind of a chicken. My friends convinced me to go to the annual haunted house at my county fairgrounds many years ago and I was super excited. Once we were there, though, I got really nervous and wasn't sure I wanted to go in! 
+    - I was to check my name on the list of students that passed, I was so tenses 
+    - I am a little bit uncomfortable with knowing that my Ex has HIV 
+    - We were driving on the interstate and I noticed a woman hitchhiking. I wanted to pull over to help but something told me not too. 
+    - I'm waiting to hear back on whether or not I got the loan approved. I'm running in circles all bent out of shape about it. 
+    - I'm about to leave the job I've had for 3 years and go to a new company.  
+    - I was gardening last weekend and I had to move a bunch of pots. I knew there might be spiders so I took my time to look carefully.  
+    - I got my associate's degree last year, and I had to get an A on my last final exam to get an A in the class.  It was three days of intense waiting. 
+    - When my kid didn't get off of the bus yesterday 
+    - One time I just signed up for a gym and on the first days I was supposed to go, I signed up for a free lifting workout with the trainer there. Before I left I was wondering to myself if I should go or not, and wasn't too sure what was the best plan of action.  
+    - I've been thinking about applying for a job that looks really great. However, I'm not sure if I'm qualified for it. 
+    - I can't make decisions when buying things if there is too many choices 
+    - This guy on the phone kept asking for info and i was worried it was a scam 
+    - Just had a wreck the driver that hit me was not insured not sure how this will turn out 
+    - Approaching a sheer-drop water-slide. 
+    - I remember going to a theme park and wanting to ride a roller coaster. I'm afraid of heights and this was my first experience riding a roller coaster. I ended up enjoying the experience and now I love roller coasters.  
+    - I was apprehensive a few weeks ago when I got on this rickety roller coaster. It was an old wooden one and kind of scary.  
+    - I just moved across country and i feel a bit unsure if this was the right move for me. 
+    - I was reallt nervous about my first date with my girlfriend because it had been a long time since I'd dated anyone. 
+    - So the president of the school's pto and I don't get along. It makes having to go to this meeting today hard. 
+    - I went to a water park onetime and my top came off while I was going down a slide 
+    - when my daughter wanted to get dropped off at the movies 
+    - I'm supposed to visit my sister's family for thanksgiving this year, but I'm not really looking forward to it. We haven't gotten along over the past several years.  
+    - Someone knocked on my door the other day. I peaked around the corner so they could not see me. I don't know anyone and was alone so I wasn't sure if I should answer the door 
+    - I was walking to my car in a parking deck and heard a strange noise.  Then I saw a guy and he was walking away from me.  As I passed him I realized the noise I heard was breaking glass.  He was breaking into the cars. 
+    - I hesitated before getting on the rollercoaster. 
+    - I was starting a new job and could not sleep the night before. I was feeling extremely anxious about the decision to change jobs. 
+    -  was at the store the other day and this random lady kept asking me my political party. She was very weird.  
+    - I want to try to eat sushi someday.  I am afraid I will get sick though. 
+    - I don't know if I should apply to university or not. 
+    - My friend ordered me some sushi but fish food scares me. I didn't feel like taking a bite. 
+    - I've been applying for jobs lately, and though I want a new career, I also have to apply for anything I'm close to qualified for to get paid even though I don't want to in case I get stuck there. 
+    - Sometimes I'm afraid to ride the city bus because you never know what kind of drama will unfold. 
+    - I need to buy a new car. I am looking at something that uses alternative fuel, but I cant decide what kind to buy. 
+    - avoided placing an order 
+    - I really do not want to go to the concert tomorrow. 
+    - I am enrolled in a motorcycle class tomorrow!  I am a little nervous though! 
+    - I'm edgy about the last half of this year. I'm having rough financial times. 
+    - When I was at the pool and some guy came in wearing all dark clothing and a bookbag.  
+    - I ate at  a very popular restaurant in my city last night. This morning I woke up to the news saying they found out that they were not serving real meat. 
+    - I met a stranger once. He asked me for a ride. 
+    - I had to go to a new doctor last week. I was a little unsure and nervous 
+    - I was invited to a party today. I am not sure I want to go. 
+    - A homeless person begged me for money the other day. I wasn't sure if I should give it to him because I didn't want him to spend it on drugs or something 
+    - This guy called from the phone company asking for very personal info 
+    - I heard a coworker talking about welfare and other social support in a very negative light. I was offended  but decided to hold my tongue. 
+    - I decided to change jobs lately, but I am now not sure I will adapt to this new job. 
+    - A couple years ago I went back to college and it had been a little over 20 years since I had dropped out.  Needless to say it was a little intimidating. 
+    - I want to take my kids to a buffet. I am afraid it will be a waste of my oney 
+    - I used to be nervous if someone tried to confront me or start a fight...but since I've taken up boxing mma and wrestling I really don't fear anybody 
+    - We just bought a used car and we've already had to take it to the shop 
+    - I have felt this way while getting ready for graduate school. 
+    - Tomorrow is the first day I start a new job and career. 
+    - I always feel on edge when the puppies are outside for too long.  It makes me worry too much. 
+    - This girl just invited me out on a date. She seems sweet and I'm interested.. more interested in her than I am this other girl I've been seeing for a few weeks. But I feel bad just dropping this girl I've been seeing recently. Like, wouldn't that be rude? 
+    - I felt uneasy as I looked at the looming rollercoaster.  
+    - I'm not sure if my boyfriend wants to get married yet. I won't rush him though. 
+    - I have this feeling because I am applying to graduate school and I am anxious. 
+    - I'm going to eat sushi for the first time this weekend, but I am a little nervous. 
+    - We're going roller coaster riding this weekend 
+    - My current employer is having big financials problem. I am afraid that the company will go into bankruptcy. 
+    - I have an overseas trip coming up. I have never been and I am feeling a little scared right now about going. 
 
 
 - intent: ashamed
@@ -3845,7 +3910,7 @@ nlu:
 
 - intent: excited
   examples: |
-    - Last week, I was watching the world cup, and watched croatia win from russia &&& excited
+    - Last week, I was watching the world cup, and watched croatia win from russia & excited
     - When I was little and I found out that we were going to the amusement park .  
     - My wife and I took a 3 week trip to New Zealand last year. 
     - I was going to see the new Marvel movie. On the way I got really pumped up. 
@@ -4254,7 +4319,8 @@ nlu:
     - Next week, I am going in work trip to New York. I can't wait to go. 
     - My mom is coming to visit and i can't wait! 
     - I am getting to go to my favorite cupcake bakery and I am feeling this way. 
-    - I just bought my first house.  I get to move in next week. 
+    - I just bought my first house. I get to move in next week. 
+
 
 
 - intent: faithful
