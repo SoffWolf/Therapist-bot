@@ -12,10 +12,19 @@ rules:
   - intent: goodbye
   - action: utter_goodbye
 
-- rule: hesitate
+- rule: hesitate happy path
   steps:
   - intent: hesitated
   - action: utter_convince
+  - intent: affirm
+  - action: utter_good_to_hear
+
+- rule: hesitate sad path
+  steps:
+  - intent: hesitated
+  - action: utter_convince
+  - intent: deny
+  - action: utter_affirm
 
 - rule: thanks
   steps:
@@ -62,3 +71,4 @@ rules:
   steps:
   - intent: ask_for_advice
   - action: utter_no_advice
+  - action: utter_not_capable

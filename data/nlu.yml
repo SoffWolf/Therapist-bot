@@ -130,6 +130,26 @@ nlu:
     - I don't know why, but there's something soothing about seeing my own blood.   
     - I'm craving a knife. I want to feel my skin cut open.   
     - Feels like running a knife over my body. I am getting sick of this life.   
+    - I want to jump of a bridge
+    - I wish I stand on the edge of a bridge right now
+    - I want to jump off a cliff
+    - I wish I stand on the edge of a cliff right now
+    - I want to get in my car, close the window, and turn off the air conditioner.
+    - I want to hang myself.
+    - I want a rope around my neck.
+    - I need a rope right now to hang me up.
+    - I need a razor asap, I can't take it anymore.
+    - I will use a razor to cut my wrist.
+    - I want the gas to fill up my room.
+    - I want to cut myself in the bathtub.
+    - I want my car to crash into a truck.
+    - I want to be in an car accident.
+    - I will take a handful of sleeping pills.
+    - I will swallow a lot of pills.
+    - I will smoke a join and stand in the middle of a road.
+    - I want to jump.
+    - I will jump off the top of a building.
+    - Maybe the fourth floor is high enough.
 - intent: stressed
   examples: |
     - I'm really stressing out over it because I'm going to get into a lot of trouble and I don’t know what to do, I need it to just not happen and to forget about it but I can’t. 
@@ -228,6 +248,11 @@ nlu:
     - i pulled an all nighter 2-3 times in a week because of my exams 
     - I work overnight some days. 
     - I study overnight twice a week. 
+    - I need to sleep, i am so tired.
+    - I think I can sleep at any second
+    - I have less than 5 hours of sleep yesterday
+    - I can't sleep for a couple of days now
+    - I find it really hard to fall asleep.
 
 
 - intent: feel-useless
@@ -339,7 +364,7 @@ nlu:
 
 - intent: self-harm
   examples: |
-    - I'm bleeding and I like it a lot.  Self-harm 
+    - I'm bleeding and I like it a lot.  
     - I love those little drops that leak out when you make a nice straight line.   
     - I just started cutting myself again after 4 years of not doing it.    
     - It's one of the worst things I could do but it helps more than anything else and it's not drugs which I really need to stay away from.   
@@ -390,8 +415,8 @@ nlu:
     - the only thing keeping me from slashing my wrists into a diced mango is my self harm tracker app gives me cooler colour themes for staying clean for at least 30 days   
     - My therapist said I was the most extreme and prolonged self harm case her branch has ever had in her 15 years of work there   
     - Im constantly berating myself for being weak and not going deeper.   
-    -  I hate myself deeply for it but anytime I see someone here younger than me with bigger/more/deeper scars i only feel like a failure bc mine aren't as bad.
-    
+    - I hate myself deeply for it but anytime I see someone here younger than me with bigger/more/deeper scars i only feel like a failure bc mine aren't as bad.
+    - I really need a razor right now to cut myself.
 
 - intent: sad
   examples: |
@@ -1586,7 +1611,7 @@ nlu:
 
 - intent: anxious
   examples: |
-    - I was reversing the car in the roadside. I had bumped into the car which was parked behind. I had to wait for so long to speak to the car owner &&& anxious
+    - I was reversing the car in the roadside. I had bumped into the car which was parked behind. I had to wait for so long to speak to the car owner 
     - I heard a car outside that sounded like it wrecked yesterday. It sounded  awful. 
     - Today is my birthday. I can't wait to see who calls me. Or my gifts. 
     - I cant wait to relocate again.  
@@ -1944,7 +1969,7 @@ nlu:
 
 - intent: apprehensive
   examples: |
-    - Someone offered me a job online to make a lot of money.  &&& apprehensive
+    - Someone offered me a job online to make a lot of money.  
     - I was apprehensive to get married. 
     - Had HELLP syndrom with first child.  Spent all 9 months being pregnant with 2nd child worrying about the same thing happening. 
     - Back in October of last year I had my first drink. At that time I had never drank or tried any drugs or anything, so I was very nervous about trying anything mind altering like that. 
@@ -2177,7 +2202,7 @@ nlu:
 
 - intent: ashamed
   examples: |
-    - I went to a party and it was real bad.  &&& ashamed
+    - I went to a party and it was real bad.  
     - I lied to the people I work out with. I told them I was out of town but I relaly just did not want to work out. 
     - I was mowing the lawn, and a rock flew and broke my neighbor's window. 
     - I am ashamed when I cheated on the test. 
@@ -2980,7 +3005,7 @@ nlu:
 
 - intent: devastated
   examples: |
-    - when i had to say goodbye to my dad &&& devastated
+    - when i had to say goodbye to my dad 
     -  I was devastated when the Falcons blew the Super Bowl. 
     - I let my cat out for the evening , the first time I left her outside at night and she didn't come back.  
     - i was devastated when my favorite world cup team was knocked out of the tournament.  
@@ -5186,7 +5211,7 @@ nlu:
 
 - intent: guilty
   examples: |
-    - After learning my husband of only 4 weeks was cheating on me I did the same to him. Not only was it before our marriage but I had found texts of him contacting her for sex after. To make it worse I slept with a close family friend of his. &&& guilty
+    - After learning my husband of only 4 weeks was cheating on me I did the same to him. Not only was it before our marriage but I had found texts of him contacting her for sex after. To make it worse I slept with a close family friend of his. 
     - I broke a statuette offered by grandmother to my sister. 
     - There was a situation where I might of hurt my freinds feelings, I ate from my friends fridge and he had no more food left that day. He had to go to bed with no food. Hungry. 
     - I just went for a shopping spree and bought a $2000 bag 
@@ -7595,7 +7620,7 @@ nlu:
 
 - intent: proud
   examples: |
-    - I showed a guy how to run a good bead in welding class and he caught on quick. &&& proud
+    - I showed a guy how to run a good bead in welding class and he caught on quick. 
     - I felt proud when I had accomplished a dream that I wanted to do for a long time.  
     - Finally got some yard work done , Love the smell of fresh cut grass. 
     - My daughter used the potty for her first time the other day, it was awesome.  
@@ -7994,7 +8019,7 @@ nlu:
 
 - intent: sentimental
   examples: |
-    - I lost my cat to old age and cried all night about it. &&& sentimental
+    - I lost my cat to old age and cried all night about it. 
     - I lost my wallet and had to get all new cards 
     - I was sad when my grandma died. 
     - I really got close with a girl that I met from Tinder, to the point where we were "dating". Then randomly, after like 4 days, she says that she doesn't want to date anymore and then just stops talking to me. 
@@ -8639,7 +8664,7 @@ nlu:
 
 - intent: surprised
   examples: |
-    - when I was younger, my parents picked me up from work with a new car, which really surprised me, I was so excited to have my own car! &&& surprised
+    - when I was younger, my parents picked me up from work with a new car, which really surprised me, I was so excited to have my own car! 
     - I woke up early today for work. My children were still up watching cartoons! 
     - The other day I was surprised with a big bonus from work.  
     - i applied for 200+ jobs and still didn't hear from none of them! 
@@ -9554,6 +9579,8 @@ nlu:
 - intent: greet
   examples: |
     - hello
+    - hello there
+    - hi there
     - what's up
     - yo
     - hey
@@ -9566,6 +9593,14 @@ nlu:
     - good afternoon 
     - good evening
     - good day
+    - hi
+    - hiiii
+    - heyyy
+    - what up
+    - hey there
+    - bon jour
+    - bon soir
+    - salute
 - intent: goodbye
   examples: |
     - goodbye
@@ -9599,6 +9634,9 @@ nlu:
     - cool
     - I am fine with that
     - I'm cool with that
+    - yeahhh
+    - right
+    - cool to me
 - intent: deny
   examples: |
     - no
@@ -9626,19 +9664,21 @@ nlu:
     - Why should I do it?
     - Why should I talk to you?
     - i need to make up my mind.
-    - i don't really think so.
     - I am not 100% sure about this
     - What if it make me feel worse?
     - it's risky, don't you think?
     - should I do it?
     - should I try it?
-    - I think I should not do it.
-    - i don't think that's a good idea
-    - tell me more why should I do it
-    - I am not ready yet
-    - I don't feel good about this
+    - I think I should not talk to you.
+    - i don't think that's a good idea talking to you
+    - tell me more why should I talk to you
+    - I am not ready talk about it yet
+    - I don't feel good about this conversation.
     - It feel weird talking to a bot about this.
     - I don't think you will understand this
+    - I don't think I should say my probelm to you
+    - I will not talk to you about this
+    - I don't want to talk to you.
 - intent: thanks
   examples: |
     - Thanks you!
@@ -9683,6 +9723,11 @@ nlu:
     - what else can you do?
 - intent: tell_joke
   examples: |
+    - a joke please
+    - a joke
+    - joke
+    - funny story
+    - do you have any funny story?
     - tell me a joke
     - tell me something funny
     - make me laugh
@@ -9702,6 +9747,9 @@ nlu:
 
 - intent: send_meme
   examples: |
+    - a meme please
+    - a meme
+    - meme
     - send me a meme please
     - send me a good meme
     - do you have any meme?
@@ -9713,6 +9761,10 @@ nlu:
     - one more meme please
 - intent: send_music
   examples: |
+    - music
+    - a song
+    - song
+    - a good melody might help
     - Maybe music is what I need.
     - I need a song to cheer me up
     - I want to loss in a melody.

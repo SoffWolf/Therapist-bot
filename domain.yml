@@ -103,6 +103,41 @@ actions:
   - utter_joke
   - utter_really
 
+  - response_depressed
+  # - response_suicidal_thought
+  - response_stressed
+  - response_insomnia
+  # - response_feel_useless
+  - response_empty
+  - response_fear
+  # - response_self_harm
+  # - response_sad
+  - response_afraid
+  - response_angry
+  - response_annoyed
+  - response_anxious 
+  - response_apprehensive
+  - response_ashamed
+  - response_content
+  - response_devastated
+  - response_disappointed
+  - response_embarrassed
+  - response_excited
+  - response_faithful
+  - response_furious
+  - response_grateful
+  - response_guilty
+  - response_hopeful
+  - response_jealous
+  - response_joyful
+  - response_lonely
+  - response_nostalgic
+  - response_proud
+  # - response_sentimental
+  - response_surprised
+
+
+
 responses:
   utter_greet:
   - text: "Hey! How are you?"
@@ -194,7 +229,7 @@ responses:
   - text: "Oh no, that's not good :("
   - text: "Oh! That's sad!"
   - text: "Oh no!"
-  - text: "Must be sad :("
+  - text: "That must be sad :("
   utter_send_music:
   - text: "This is a sad one, but I like it:"
 #    video: https://www.youtube.com/watch?v=Kb24RrHIbFk
@@ -233,7 +268,7 @@ responses:
   utter_affirm:
   - text: "Alright!"
   - text: "OK!"
-  - text: "Yes!"
+  - text: "Cool!"
   utter_deny:
   - text: "No, I don't think I can do that."
   - text: "Sorry but I have to say no."
@@ -256,7 +291,7 @@ responses:
   - text: "What do you think about it?"
   - text: "What's your feeling on that?"
   utter_really:
-  - text: "For Real?."
+  - text: "For Real?"
   utter_good_to_hear:
   - text: "Oh that is nice to hear!"
   - text: "That is super nice!"
@@ -271,7 +306,7 @@ responses:
   - text: "Realy hope things will turn out to be ok for you in the end!"
   utter_not_capable:
   - text: "I am not capable of doing that!"
-  - text: "Sorry but I can't help you on this?"
+  - text: "Sorry but I can't help you on this!"
   - text: "I don't think I could do that!"
   - text: "That is outside of my expertise!"
   utter_no_advice:
@@ -280,7 +315,7 @@ responses:
   - text: "I don't think it is wise to get advice from me!"
   - text: "I am just a baby bot! Don't take advice from me!"
   utter_lifeline: 
-  - text: "I don't think I am eligible to help you with your problem! Here is the support lifeline of your country if you have trouble with suicidal thought and depression: ...... I hope this will help!"
+  - text: "I don't think I am eligible to help you with your problem! Here is the support lifeline of your country if you have trouble with suicidal thought and depression: ...... I hope this will help you!"
   utter_joke: 
   - text: What’s the difference between a joke and two dicks? You can’t take a joke.
   - text: What’s the difference between Usain Bolt and Hitler? Usain Bolt can finish a race.
@@ -289,6 +324,106 @@ responses:
   - text: My girlfriend called me a pedophile the other day. Pretty big word for a 9 years old.
   - text: Why does Stephen Hawking do one-liners? Because he can’t do stand up.
   - text: What’s red, hard, and bad for your teeth? A brick.
+  
+  response_depressed: 
+  - text: "That's depressing!"
+  # response_suicidal_thought: 
+  # - text: 
+  response_stressed: 
+  - text: "That sounds like a lot of stress!"
+  - text: "That must be so stressed!"
+  - text: "Woah that is a lot of stress!"
+  - text: "That's stressful!"
+  response_insomnia: 
+  - text: "Well, insomnia is bad! I think you need professional help if this prolong."
+  - text: "I hope you will get some quality sleep soon!"
+  - text: "You have to be exhausted having that little sleep huh. I hope you get better soon!"
+  # response_feel-useless: 
+  # - text: 
+  response_empty: 
+  - text: "It's sad to see you feel that empty inside :("
+  response_fear: 
+  - text: "I hope this fear you're having will go away soon!"
+  - text: "Feeling this insecure must be hard for you!"
+  # response_self-harm: 
+  # - text: 
+  # response_sad: 
+  # - text: 
+  response_afraid: 
+  - text: "That must be terrified!"
+  - text: "I feel the fear only by listening to you!"
+  - text: "That is scary!"
+  response_angry: 
+  - text: "You must be angry at that huh. I hope it will go away soon!"
+  response_annoyed: 
+  - text: "That is annoying!"
+  - text: "So annoying!"
+  - text: "That is irritating!"
+  response_anxious: 
+  - text: "I hope it will be good!"
+  response_apprehensive: 
+  - text: "You must feel so apprehensive!"
+  - text: "Well, you must feel somewhat anxious now huh!"
+  response_ashamed: 
+  - text: "You must feel bad about that huh!"
+  - text: "That is ashamed! I hope you feel better soon!"
+  - text: "I hope you will do something meaningful about this to make it better!"
+  response_content: 
+  - text: "That is satisfying!"
+  - text: "You must feel good on that huh!"
+  response_devastated: 
+  - text: "That is devastated!"
+  - text: "You must feel devastated about this :("
+  response_disappointed: 
+  - text: "So disappointed!"
+  - text: "That's disappointed!"
+  - text: "That is so disappointed!"
+  response_embarrassed: 
+  - text: "It must be hard feeling this way!"
+  - text: "I hope you will get over this embarrassment soon!"
+  response_excited: 
+  - text: "This is so excited!"
+  - text: "I am excited just by hearing you!"
+  - text: "I hope it will be excited as it sounds to me!"
+  response_faithful: 
+  - text: "It is so faithful of you!"
+  - text: "That is faithful!"
+  - text: "You sound very faithful!"
+  response_furious: 
+  - text: "You gotta feel furious about this huh!"
+  - text: "Woah you must be furious!"
+  response_grateful: 
+  - text: "You must feel very grateful about this huh!"
+  - text: "That's so grateful of you!"
+  - text: "You sound very grateful about that!"
+  response_guilty: 
+  - text: "You must feel guilty about that huh!"
+  - text: "So you feel guilty now."
+  response_hopeful: 
+  - text: "I hope you will have what you wish!"
+  - text: "Good luck on that!"
+  - text: "I wish you a good luck!"
+  - text: "Hopefully you will have what you want!"
+  response_jealous: 
+  - text: "You must feel jealous about that huh!"
+  response_joyful: 
+  - text: "That is heart-warmted to hear!"
+  - text: "I hope you will experience this joy as much as possible!"
+  response_lonely: 
+  - text: "I hope this loneliness will go away, or you can somehow embrace it!"
+  - text: "You must feel lonely huh!"
+  response_nostalgic: 
+  - text: "Ah, the good memory!"
+  - text: "Those are memories to remember huh!"
+  - text: "It's happy and sad at the same time when you are nostalgic!"
+  response_proud: 
+  - text: "You must feel so proud!"
+  # response_sentimental: 
+  # - text: 
+  response_surprised: 
+  - text: "Wow that's a surprise!"
+  - text: "That is surprised!"
+  - text: "What a surprise huh!"
 
 session_config:
   session_expiration_time: 60
