@@ -262,3 +262,17 @@ stories:
   - action: utter_ask_next
   - intent: surprised
   - action: utter_impressed
+
+- story: hesitate happy path
+  steps:
+  - intent: hesitated
+  - action: utter_convince
+  - intent: affirm
+  - action: utter_good_to_hear
+
+- story: hesitate sad path
+  steps:
+  - intent: hesitated
+  - action: utter_convince
+  - intent: deny
+  - action: utter_affirm
