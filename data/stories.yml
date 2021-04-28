@@ -1,7 +1,5 @@
 version: "2.0"
-
 stories:
-
 - story: depressed
   steps:
   - intent: depressed
@@ -13,7 +11,6 @@ stories:
     - intent: depressed
     - intent: devastated
   - action: utter_sorry
-
 - story: suicidal_thought
   steps:
   - intent: suicidal_thought
@@ -34,7 +31,6 @@ stories:
     - intent: devastated
     - intent: lonely
   - action: utter_lifeline
-
 - story: stressed
   steps:
   - intent: stressed
@@ -42,9 +38,6 @@ stories:
   - action: utter_how_you_feel
   - intent: stressed
   - action: utter_wish_better
-
-
-
 - story: feel useless
   steps:
   - intent: feel-useless
@@ -57,12 +50,10 @@ stories:
     - intent: devastated
   - action: utter_sorry
   - action: utter_how_you_feel
-
 - story: empty
   steps:
   - intent: empty
   - action: utter_sad
-
 - story: afraid
   steps:
   - intent: afraid
@@ -72,9 +63,8 @@ stories:
   - action: utter_worry
   - action: response_afraid
   - action: utter_ask_next
-  - action: afraid
+  - intent: afraid
   - action: utter_wish_better
-
 - story: self harm
   steps:
   - intent: self-harm
@@ -95,20 +85,18 @@ stories:
     - intent: devastated
     - intent: lonely
   - action: utter_lifeline
-
 - story: angry, furious
   steps:
   - or:
     - intent: angry
     - intent: furious
   - action: utter_angry
-  - action: utter_ask_next 
+  - action: utter_ask_next
   - or:
     - intent: angry
     - intent: furious
   - action: response_angry
   - action: utter_cheer_up
-
 - story: annoyed
   steps:
   - intent: annoyed
@@ -119,9 +107,7 @@ stories:
     - intent: annoyed
   - action: response_annoyed
   - action: utter_cheer_up
-
-
-- story: guilty 
+- story: guilty
   steps:
   - intent: guilty
   - action: utter_sorry
@@ -132,7 +118,6 @@ stories:
   - intent: sad
   - action: utter_sad
   - action: utter_cheer_up
-
 - story: lonely
   steps:
   - intent: lonely
@@ -146,22 +131,17 @@ stories:
     - intent: lonely
   - action: utter_sorry
   - action: utter_cheer_up
-
-#############################################################
 - story: joyful, content
   steps:
   - or:
     - intent: joyful
     - intent: content
   - action: utter_good_to_hear
-
 - story: proud
   steps:
   - intent: proud
   - action: utter_congrat
   - action: utter_good_to_hear
-
-
 - story: sad in general
   steps:
   - or:
@@ -170,167 +150,111 @@ stories:
     - intent: depressed
     - intent: devastated
   - action: utter_sad
-
-#############################################################
-
-
 - story: response_depressed
   steps:
   - intent: depressed
   - action: response_depressed
-
-# - story: response_suicidal_thought
-#   steps:
-#   - intent: 
-#   - action: response_suicidal_thought
-
 - story: response_stressed
   steps:
   - intent: stressed
-  - action: response_stressed   
+  - action: response_stressed
   - action: utter_how_you_feel
   - intent: stressed
   - action: utter_impressed
   - action: utter_wish_better
-  
 - story: response_insomnia
   steps:
   - intent: insomnia
   - action: response_insomnia
-
-  
-# - story: response_feel-useless
-#   steps:
-#   - intent: 
-#   - action: utter_congrat
-  
 - story: response_empty
   steps:
   - intent: empty
   - action: response_empty
   - action: utter_wish_better
-  
 - story: response_fear
   steps:
   - intent: fear
   - action: response_fear
-  
-# - story: response_self-harm
-#   steps:
-#   - intent: 
-#   - action: utter_congrat
-  
-# - story: response_sad
-#   steps:
-#   - intent: 
-#   - action: response_sad
-  
 - story: response_afraid
   steps:
   - intent: afraid
   - action: response_afraid
-  
 - story: response_angry
   steps:
   - intent: angry
   - action: response_angry
-  
 - story: response_annoyed
   steps:
   - intent: annoyed
   - action: response_annoyed
-  
-- story: response_anxious 
+- story: response_anxious
   steps:
-  - intent: anxious 
+  - intent: anxious
   - action: response_anxious
-  
 - story: response_apprehensive
   steps:
   - intent: apprehensive
   - action: response_apprehensive
-  
 - story: response_ashamed
   steps:
   - intent: ashamed
   - action: response_ashamed
-  
 - story: response_content
   steps:
   - intent: content
   - action: response_content
-  
 - story: response_devastated
   steps:
   - intent: devastated
   - action: response_devastated
-  
 - story: response_disappointed
   steps:
   - intent: disappointed
   - action: response_disappointed
-  
 - story: response_embarrassed
   steps:
   - intent: embarrassed
   - action: response_embarrassed
-  
 - story: response_excited
   steps:
   - intent: excited
   - action: response_excited
-  
 - story: response_faithful
   steps:
   - intent: faithful
   - action: response_faithful
-  
 - story: response_furious
   steps:
   - intent: furious
   - action: response_furious
-  
 - story: response_grateful
   steps:
   - intent: grateful
   - action: response_grateful
-  
 - story: response_guilty
   steps:
   - intent: guilty
   - action: response_guilty
-  
 - story: response_hopeful
   steps:
   - intent: hopeful
   - action: response_hopeful
-  
 - story: response_jealous
   steps:
   - intent: jealous
   - action: response_jealous
-  
 - story: response_joyful
   steps:
   - intent: joyful
   - action: response_joyful
-  
-  
 - story: response_nostalgic
   steps:
   - intent: nostalgic
   - action: response_nostalgic
-  
 - story: response_proud
   steps:
   - intent: proud
   - action: response_proud
-  
-# - story: response_sentimental
-#   steps:
-#   - intent: proud
-#   - action: utter_congrat
-  
 - story: response_surprised
   steps:
   - intent: surprised
@@ -338,4 +262,3 @@ stories:
   - action: utter_ask_next
   - intent: surprised
   - action: utter_impressed
-  

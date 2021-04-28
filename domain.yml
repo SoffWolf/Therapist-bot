@@ -1,322 +1,276 @@
-version: "2.0"
-
+version: '2.0'
+config:
+  store_entities_as_slots: true
+session_config:
+  session_expiration_time: 60
+  carry_over_slots_to_new_session: true
 intents:
-  - depressed
-  - suicidal_thought
-  - stressed
-  - insomnia
-  - feel-useless
-  - empty
-  - fear
-  - self-harm
-  - sad
-  - afraid
-  - angry
-  - annoyed
-  - anxious 
-  - apprehensive
-  - ashamed
-  - content
-  - devastated
-  - disappointed
-  - embarrassed
-  - excited
-  - faithful
-  - furious
-  - grateful
-  - guilty
-  - hopeful
-  - jealous
-  - joyful
-  - lonely
-  - nostalgic
-  - proud
-  - sentimental
-  - surprised
-  
-  - greet
-  - goodbye
-  - affirm
-  - deny
-  - hesitated
-  - thanks
-  - who_are_you
-  - do_you_have_feeling
-  - what_can_you_do
-  - tell_joke
-  - send_meme
-  - send_music
-  - confused
-  - end_of_story
-  - ask_for_advice
-
-
-
-entities:
-  - location  
-  - facility_type
-
-slots:
-  location:
-    type: text
-  facility_type:
-    type: text
-  address:
-    type: unfeaturized
-  
-  
-
-actions:
-  - utter_greet
-  - utter_goodbye
-  - utter_ask_location      #
-  - utter_who_i_am
-  - utter_my_capabilities
-  - utter_my_feeling
-  - utter_confuse
-  - utter_you_welcome
-  - utter_convince
-  
-  - utter_shock
-  - utter_impressed
-  - utter_angry
-  - utter_apology
-  - utter_worry
-  - utter_cheer_up
-  - utter_sorry
-  - utter_congrat
-  - utter_happy
-  - utter_sad
-  - utter_send_music
-  - utter_send_meme
-  - utter_ask_better
-  - utter_affirm
-  - utter_deny
-  - utter_what_happen
-  - utter_ask_next
-  - utter_how_you_feel
-  - utter_good_to_hear
-  - utter_wish_better     
-  - utter_not_capable     #
-  - utter_no_advice       #
-  - utter_lifeline        #
-  - utter_joke
-  - utter_really
-
-  - response_depressed
-  # - response_suicidal_thought
-  - response_stressed
-  - response_insomnia
-  # - response_feel_useless
-  - response_empty
-  - response_fear
-  # - response_self_harm
-  # - response_sad
-  - response_afraid
-  - response_angry
-  - response_annoyed
-  - response_anxious 
-  - response_apprehensive
-  - response_ashamed
-  - response_content
-  - response_devastated
-  - response_disappointed
-  - response_embarrassed
-  - response_excited
-  - response_faithful
-  - response_furious
-  - response_grateful
-  - response_guilty
-  - response_hopeful
-  - response_jealous
-  - response_joyful
-  - response_lonely
-  - response_nostalgic
-  - response_proud
-  # - response_sentimental
-  - response_surprised
-
-
-
+- depressed:
+    use_entities: true
+- suicidal_thought:
+    use_entities: true
+- stressed:
+    use_entities: true
+- insomnia:
+    use_entities: true
+- feel-useless:
+    use_entities: true
+- empty:
+    use_entities: true
+- fear:
+    use_entities: true
+- self-harm:
+    use_entities: true
+- sad:
+    use_entities: true
+- afraid:
+    use_entities: true
+- angry:
+    use_entities: true
+- annoyed:
+    use_entities: true
+- anxious:
+    use_entities: true
+- apprehensive:
+    use_entities: true
+- ashamed:
+    use_entities: true
+- content:
+    use_entities: true
+- devastated:
+    use_entities: true
+- disappointed:
+    use_entities: true
+- embarrassed:
+    use_entities: true
+- excited:
+    use_entities: true
+- faithful:
+    use_entities: true
+- furious:
+    use_entities: true
+- grateful:
+    use_entities: true
+- guilty:
+    use_entities: true
+- hopeful:
+    use_entities: true
+- jealous:
+    use_entities: true
+- joyful:
+    use_entities: true
+- lonely:
+    use_entities: true
+- nostalgic:
+    use_entities: true
+- proud:
+    use_entities: true
+- sentimental:
+    use_entities: true
+- surprised:
+    use_entities: true
+- greet:
+    use_entities: true
+- goodbye:
+    use_entities: true
+- affirm:
+    use_entities: true
+- deny:
+    use_entities: true
+- hesitated:
+    use_entities: true
+- thanks:
+    use_entities: true
+- who_are_you:
+    use_entities: true
+- do_you_have_feeling:
+    use_entities: true
+- what_can_you_do:
+    use_entities: true
+- tell_joke:
+    use_entities: true
+- send_meme:
+    use_entities: true
+- send_music:
+    use_entities: true
+- confused:
+    use_entities: true
+- end_of_story:
+    use_entities: true
+- ask_for_advice:
+    use_entities: true
+entities: []
+slots: {}
 responses:
   utter_greet:
-  - text: "Hey! How are you?"
-  - text: "Hi!"
-  - text: "Hello!"
+  - text: Hey! How are you?
+  - text: Hi!
+  - text: Hello!
   utter_goodbye:
-  - text: "Bye!"
-  - text: "Bye bye!"
-  - text: "Goodbye!"
-  - text: "See you!"
+  - text: Bye!
+  - text: Bye bye!
+  - text: Goodbye!
+  - text: See you!
   utter_ask_location:
-  - text: "Can I ask what country are you live in?"
-  - text: "Can you please tell me the country you live in?"
-  - text: "May I ask where do you live? What country?"
-  - text: "What country are you currently living in?"
+  - text: Can I ask what country are you live in?
+  - text: Can you please tell me the country you live in?
+  - text: May I ask where do you live? What country?
+  - text: What country are you currently living in?
   utter_who_i_am:
-  - text: "I am the Empathetic chatbot created by 2 young students at Aalto University in April 2021. I am here in case you need someone to talk to ;)."
+  - text: I am the Empathetic chatbot created by 2 young students at Aalto University in April 2021. I am here in case you need someone to talk to ;).
   utter_my_capabilities:
-  - text: "I am capable of, well, chatting to you. I can also tell you some offensive jokes, give you some memes and music if you ask me to. That's all of it."
+  - text: I am capable of, well, chatting to you. I can also tell you some offensive jokes, give you some memes and music if you ask me to. That's all of it.
   utter_my_feeling:
-  - text: "I don't have feeling as you, human. I can only understand your feeling by mapping that feeling into the vector space. So in a way, this vector space is where we share the connection."
+  - text: I don't have feeling as you, human. I can only understand your feeling by mapping that feeling into the vector space. So in a way, this vector space is where we share the connection.
   utter_confuse:
-  - text: "Sorry but can you rephrase that?"
-  - text: "I am confused. Can you specify what you say earlier?"
-  - text: "Sorry but I don't understand you that well. Could you say it again?"
-  - text: "I don't think I fully understood you. Please rephrase what you've just said!"
+  - text: Sorry but can you rephrase that?
+  - text: I am confused. Can you specify what you say earlier?
+  - text: Sorry but I don't understand you that well. Could you say it again?
+  - text: I don't think I fully understood you. Please rephrase what you've just said!
   utter_you_welcome:
-  - text: "It's my pleasure!"
-  - text: "You're welcome!"
-  - text: "Oh thanks! I am happy to help."
-  - text: "I am glad that I can help!"
+  - text: It's my pleasure!
+  - text: You're welcome!
+  - text: Oh thanks! I am happy to help.
+  - text: I am glad that I can help!
   utter_convince:
-  - text: "It might be good to get things off your chest you know. I'm not capable of judging other people, and also I have all the time and energy to listen to you. So why not, right?"
-
+  - text: It might be good to get things off your chest you know. I'm not capable of judging other people, and also I have all the time and energy to listen to you. So why not, right?
   utter_shock:
-  - text: "Woah! That is shocking!"
-  - text: "Really!"
-  - text: "That's hard to believe!"
-  - text: "Damn! For real?"
+  - text: Woah! That is shocking!
+  - text: Really!
+  - text: That's hard to believe!
+  - text: Damn! For real?
   utter_impressed:
-  - text: "Wow!"
-  - text: "That is impressive!"
-  - text: "That's incredible!"
-  - text: "Not gonna lie that impressed me!"
+  - text: Wow!
+  - text: That is impressive!
+  - text: That's incredible!
+  - text: Not gonna lie that impressed me!
   utter_angry:
-  - text: "I am furious now!"
-  - text: "That is messed up!"
-  - text: "I can't believe that happened."
-  - text: "I'm angry now!"
-  - text: "So angry!"
+  - text: I am furious now!
+  - text: That is messed up!
+  - text: I can't believe that happened.
+  - text: I'm angry now!
+  - text: So angry!
   utter_apology:
-  - text: "I am so sorry!"
-  - text: "I'm sorry!"
-  - text: "My apology!"
-  - text: "I apologize for saying that!"
-  - text: "Sorry!"
-  - text: "My bad! I am sorry!"
+  - text: I am so sorry!
+  - text: I'm sorry!
+  - text: My apology!
+  - text: I apologize for saying that!
+  - text: Sorry!
+  - text: My bad! I am sorry!
   utter_worry:
-  - text: "I am worried for you!"
-  - text: "I am concerned now!"
-  - text: "That's awful. I am worried for you!"
+  - text: I am worried for you!
+  - text: I am concerned now!
+  - text: That's awful. I am worried for you!
   utter_cheer_up:
-  - text: "I think I have to cheer you up. What do you want? A meme, an offensive joke, or a song?"
-  - text: "I might know how to cheer you up. Do you want an offensive joke, a meme, or a song?"
-  - text: "I think I know how to make you feel a little better. Do you want an offensive joke, a meme, or a song?"
-  - text: "I have a question, what will cheer you up now? An offensive joke, a meme, or a song? I can get you one right now."
+  - text: I think I have to cheer you up. What do you want? A meme, an offensive joke, or a song?
+  - text: I might know how to cheer you up. Do you want an offensive joke, a meme, or a song?
+  - text: I think I know how to make you feel a little better. Do you want an offensive joke, a meme, or a song?
+  - text: I have a question, what will cheer you up now? An offensive joke, a meme, or a song? I can get you one right now.
   utter_sorry:
-  - text: "I am so sorry to hear that!"
-  - text: "I'm so sorry!"
-  - text: "It's sad that happen!"
-  - text: "So sad to hear that!"
-  - text: "That must be so sad!"
-  - text: "I am saddened to hear of your situation!"
-  - text: "I can't imagine the sadness you must be feeling from that!"
-  - text: "I wish that I could share your sorrow."
+  - text: I am so sorry to hear that!
+  - text: I'm so sorry!
+  - text: It's sad that happen!
+  - text: So sad to hear that!
+  - text: That must be so sad!
+  - text: I am saddened to hear of your situation!
+  - text: I can't imagine the sadness you must be feeling from that!
+  - text: I wish that I could share your sorrow.
   utter_congrat:
-  - text: "Congrat!"
-  - text: "That is so nice!"
-  - text: "Congratulation!"
-  - text: "It is warm-hearted to hear that!"
+  - text: Congrat!
+  - text: That is so nice!
+  - text: Congratulation!
+  - text: It is warm-hearted to hear that!
   utter_happy:
-  - text: "That's great :D"
-  - text: "That is so nice."
-  - text: "Oh, niceee"
-  - text: "Oh! That's good!"
+  - text: That's great :D
+  - text: That is so nice.
+  - text: Oh, niceee
+  - text: Oh! That's good!
   utter_sad:
-  - text: "That's sad :("
-  - text: "That is so sad."
-  - text: "Oh no, that's not good :("
-  - text: "Oh! That's sad!"
-  - text: "Oh no!"
-  - text: "That must be sad :("
+  - text: That's sad :(
+  - text: That is so sad.
+  - text: Oh no, that's not good :(
+  - text: Oh! That's sad!
+  - text: Oh no!
+  - text: That must be sad :(
   utter_send_music:
-  - text: "This is a sad one, but I like it:"
-#    video: https://www.youtube.com/watch?v=Kb24RrHIbFk
-  - text: "This is my classic favourite:"
-#    video: https://www.youtube.com/watch?v=uSD4vsh1zDA&t=1s
-  - text: "I like to listen to this when I have no motivation:"
-#    video: https://www.youtube.com/watch?v=lxRwEPvL-mQ
-  - text: "I guess this is what a healing soul sounds like:"
-#    video: https://www.youtube.com/watch?v=nH575Ld1ATg
+  - text: 'This is a sad one, but I like it:'
+  - text: 'This is my classic favourite:'
+  - text: 'I like to listen to this when I have no motivation:'
+  - text: 'I guess this is what a healing soul sounds like:'
   - text: "This is something else. It's name is 'Rooftop 102'. Don't understand, just feel it ;) :"
-#    video: https://www.youtube.com/watch?v=_pgjLLSo8yM
-  - text: "This is a dark one. I like it:"
-#    video: https://www.youtube.com/watch?v=FAucVNRx_mU
-  - text: "This is SAD!:"
-#    video: https://www.youtube.com/watch?v=pgN-vvVVxMA
+  - text: 'This is a dark one. I like it:'
+  - text: 'This is SAD!:'
   utter_send_meme:
-  - text: "This is a wholesome one:"
-    image: https://imgur.com/gallery/ceTLz15
-  - text: "This is a good one:"
-    image: https://imgur.com/gallery/3hMjtAu
-  - text: "This might cheer you up:"
-    image: https://imgur.com/gallery/lY2N8ts
-  - text: "This might cheer you up:"
-    image: https://imgur.com/gallery/kdI54gy
-  - text: "This is an offensive one :( :"
-    image: https://imgur.com/gallery/Fa2a7
-  - text: "OK This is a dark one :D :"
-    image: https://imgur.com/gallery/zDuq2
+  - image: https://imgur.com/gallery/ceTLz15
+    text: 'This is a wholesome one:'
+  - image: https://imgur.com/gallery/3hMjtAu
+    text: 'This is a good one:'
+  - image: https://imgur.com/gallery/lY2N8ts
+    text: 'This might cheer you up:'
+  - image: https://imgur.com/gallery/kdI54gy
+    text: 'This might cheer you up:'
+  - image: https://imgur.com/gallery/Fa2a7
+    text: 'This is an offensive one :( :'
+  - image: https://imgur.com/gallery/zDuq2
+    text: 'OK This is a dark one :D :'
   utter_ask_better:
-  - text: "Are you feeling better?"
-  - text: "Feeling better now?"
-  - text: "How do you feel talking about all this?"
-  - text: "Do you feel any better?"
-  - text: "I hope I do some help. Do you feel any better?"
-
+  - text: Are you feeling better?
+  - text: Feeling better now?
+  - text: How do you feel talking about all this?
+  - text: Do you feel any better?
+  - text: I hope I do some help. Do you feel any better?
   utter_affirm:
-  - text: "Alright!"
-  - text: "OK!"
-  - text: "Cool!"
+  - text: Alright!
+  - text: OK!
+  - text: Cool!
   utter_deny:
-  - text: "No, I don't think I can do that."
-  - text: "Sorry but I have to say no."
+  - text: No, I don't think I can do that.
+  - text: Sorry but I have to say no.
   utter_what_happen:
-  - text: "What happen?"
-  - text: "Can you tell me what happen?"
-  - text: "Please tell me what happen!"
-  - text: "Please tell me what make you feel that way!"
+  - text: What happen?
+  - text: Can you tell me what happen?
+  - text: Please tell me what happen!
+  - text: Please tell me what make you feel that way!
   utter_ask_next:
-  - text: "Then what happen?"
-  - text: "What happen next?"
-  - text: "What happen after that?"
-  - text: "After that, what happen?"
-  - text: "Did anything else happen after that?"
-  - text: "And then?"
+  - text: Then what happen?
+  - text: What happen next?
+  - text: What happen after that?
+  - text: After that, what happen?
+  - text: Did anything else happen after that?
+  - text: And then?
   utter_how_you_feel:
-  - text: "How do you feel about it?"
-  - text: "What was your feeling then?"
-  - text: "How did you feel about it?"
-  - text: "What do you think about it?"
-  - text: "What's your feeling on that?"
+  - text: How do you feel about it?
+  - text: What was your feeling then?
+  - text: How did you feel about it?
+  - text: What do you think about it?
+  - text: What's your feeling on that?
   utter_really:
-  - text: "For Real?"
+  - text: For Real?
   utter_good_to_hear:
-  - text: "Oh that is nice to hear!"
-  - text: "That is super nice!"
-  - text: "That's good to hear!"
-  - text: "Niceee!"
-  - text: "I'm so happy for you!"
+  - text: Oh that is nice to hear!
+  - text: That is super nice!
+  - text: That's good to hear!
+  - text: Niceee!
+  - text: I'm so happy for you!
   utter_wish_better:
-  - text: "I wish thing would be better for you soon!"
-  - text: "I hope things will turn out ok for you in the end!"
-  - text: "I hope good things will happen to you!"
-  - text: "I hope you feel better soon!"
-  - text: "Realy hope things will turn out to be ok for you in the end!"
+  - text: I wish thing would be better for you soon!
+  - text: I hope things will turn out ok for you in the end!
+  - text: I hope good things will happen to you!
+  - text: I hope you feel better soon!
+  - text: Realy hope things will turn out to be ok for you in the end!
   utter_not_capable:
-  - text: "I am not capable of doing that!"
-  - text: "Sorry but I can't help you on this!"
-  - text: "I don't think I could do that!"
-  - text: "That is outside of my expertise!"
+  - text: I am not capable of doing that!
+  - text: Sorry but I can't help you on this!
+  - text: I don't think I could do that!
+  - text: That is outside of my expertise!
   utter_no_advice:
-  - text: "Sorry but I can't give you advice. It's dangerous getting advice from me."
-  - text: "Can you please ask someone else for that? I am the worst person to get advice from!"
-  - text: "I don't think it is wise to get advice from me!"
-  - text: "I am just a baby bot! Don't take advice from me!"
-  utter_lifeline: 
+  - text: Sorry but I can't give you advice. It's dangerous getting advice from me.
+  - text: Can you please ask someone else for that? I am the worst person to get advice from!
+  - text: I don't think it is wise to get advice from me!
+  - text: I am just a baby bot! Don't take advice from me!
+  utter_lifeline:
   - text: "I don't think I am eligible to help you with your problem! Here is the support lifeline of your country if you have trouble with suicidal thought and depression: ...... I hope this will help you!"
-  utter_joke: 
+  utter_joke:
   - text: What’s the difference between a joke and two dicks? You can’t take a joke.
   - text: What’s the difference between Usain Bolt and Hitler? Usain Bolt can finish a race.
   - text: How is eating pussy and being in the mafia the same? One slip of the tongue and you’re in deep shit.
@@ -324,107 +278,156 @@ responses:
   - text: My girlfriend called me a pedophile the other day. Pretty big word for a 9 years old.
   - text: Why does Stephen Hawking do one-liners? Because he can’t do stand up.
   - text: What’s red, hard, and bad for your teeth? A brick.
-  
-  response_depressed: 
-  - text: "That's depressing!"
-  # response_suicidal_thought: 
-  # - text: 
-  response_stressed: 
-  - text: "That sounds like a lot of stress!"
-  - text: "That must be so stressed!"
-  - text: "Woah that is a lot of stress!"
-  - text: "That's stressful!"
-  response_insomnia: 
-  - text: "Well, insomnia is bad! I think you need professional help if this prolong."
-  - text: "I hope you will get some quality sleep soon!"
-  - text: "You have to be exhausted having that little sleep huh. I hope you get better soon!"
-  # response_feel-useless: 
-  # - text: 
-  response_empty: 
-  - text: "It's sad to see you feel that empty inside :("
-  response_fear: 
-  - text: "I hope this fear you're having will go away soon!"
-  - text: "Feeling this insecure must be hard for you!"
-  # response_self-harm: 
-  # - text: 
-  # response_sad: 
-  # - text: 
-  response_afraid: 
-  - text: "That must be terrified!"
-  - text: "I feel the fear only by listening to you!"
-  - text: "That is scary!"
-  response_angry: 
-  - text: "You must be angry at that huh. I hope it will go away soon!"
-  response_annoyed: 
-  - text: "That is annoying!"
-  - text: "So annoying!"
-  - text: "That is irritating!"
-  response_anxious: 
-  - text: "I hope it will be good!"
-  response_apprehensive: 
-  - text: "You must feel so apprehensive!"
-  - text: "Well, you must feel somewhat anxious now huh!"
-  response_ashamed: 
-  - text: "You must feel bad about that huh!"
-  - text: "That is ashamed! I hope you feel better soon!"
-  - text: "I hope you will do something meaningful about this to make it better!"
-  response_content: 
-  - text: "That is satisfying!"
-  - text: "You must feel good on that huh!"
-  response_devastated: 
-  - text: "That is devastated!"
-  - text: "You must feel devastated about this :("
-  response_disappointed: 
-  - text: "So disappointed!"
-  - text: "That's disappointed!"
-  - text: "That is so disappointed!"
-  response_embarrassed: 
-  - text: "It must be hard feeling this way!"
-  - text: "I hope you will get over this embarrassment soon!"
-  response_excited: 
-  - text: "This is so excited!"
-  - text: "I am excited just by hearing you!"
-  - text: "I hope it will be excited as it sounds to me!"
-  response_faithful: 
-  - text: "It is so faithful of you!"
-  - text: "That is faithful!"
-  - text: "You sound very faithful!"
-  response_furious: 
-  - text: "You gotta feel furious about this huh!"
-  - text: "Woah you must be furious!"
-  response_grateful: 
-  - text: "You must feel very grateful about this huh!"
-  - text: "That's so grateful of you!"
-  - text: "You sound very grateful about that!"
-  response_guilty: 
-  - text: "You must feel guilty about that huh!"
-  - text: "So you feel guilty now."
-  response_hopeful: 
-  - text: "I hope you will have what you wish!"
-  - text: "Good luck on that!"
-  - text: "I wish you a good luck!"
-  - text: "Hopefully you will have what you want!"
-  response_jealous: 
-  - text: "You must feel jealous about that huh!"
-  response_joyful: 
-  - text: "That is heart-warmted to hear!"
-  - text: "I hope you will experience this joy as much as possible!"
-  response_lonely: 
-  - text: "I hope this loneliness will go away, or you can somehow embrace it!"
-  - text: "You must feel lonely huh!"
-  response_nostalgic: 
-  - text: "Ah, the good memory!"
-  - text: "Those are memories to remember huh!"
-  - text: "It's happy and sad at the same time when you are nostalgic!"
-  response_proud: 
-  - text: "You must feel so proud!"
-  # response_sentimental: 
-  # - text: 
-  response_surprised: 
-  - text: "Wow that's a surprise!"
-  - text: "That is surprised!"
-  - text: "What a surprise huh!"
-
-session_config:
-  session_expiration_time: 60
-  carry_over_slots_to_new_session: true
+  response_depressed:
+  - text: That's depressing!
+  response_stressed:
+  - text: That sounds like a lot of stress!
+  - text: That must be so stressed!
+  - text: Woah that is a lot of stress!
+  - text: That's stressful!
+  response_insomnia:
+  - text: Well, insomnia is bad! I think you need professional help if this prolong.
+  - text: I hope you will get some quality sleep soon!
+  - text: You have to be exhausted having that little sleep huh. I hope you get better soon!
+  response_empty:
+  - text: It's sad to see you feel that empty inside :(
+  response_fear:
+  - text: I hope this fear you're having will go away soon!
+  - text: Feeling this insecure must be hard for you!
+  response_afraid:
+  - text: That must be terrified!
+  - text: I feel the fear only by listening to you!
+  - text: That is scary!
+  response_angry:
+  - text: You must be angry at that huh. I hope it will go away soon!
+  response_annoyed:
+  - text: That is annoying!
+  - text: So annoying!
+  - text: That is irritating!
+  response_anxious:
+  - text: I hope it will be good!
+  response_apprehensive:
+  - text: You must feel so apprehensive!
+  - text: Well, you must feel somewhat anxious now huh!
+  response_ashamed:
+  - text: You must feel bad about that huh!
+  - text: That is ashamed! I hope you feel better soon!
+  - text: I hope you will do something meaningful about this to make it better!
+  response_content:
+  - text: That is satisfying!
+  - text: You must feel good on that huh!
+  response_devastated:
+  - text: That is devastated!
+  - text: You must feel devastated about this :(
+  response_disappointed:
+  - text: So disappointed!
+  - text: That's disappointed!
+  - text: That is so disappointed!
+  response_embarrassed:
+  - text: It must be hard feeling this way!
+  - text: I hope you will get over this embarrassment soon!
+  response_excited:
+  - text: This is so excited!
+  - text: I am excited just by hearing you!
+  - text: I hope it will be excited as it sounds to me!
+  response_faithful:
+  - text: It is so faithful of you!
+  - text: That is faithful!
+  - text: You sound very faithful!
+  response_furious:
+  - text: You gotta feel furious about this huh!
+  - text: Woah you must be furious!
+  response_grateful:
+  - text: You must feel very grateful about this huh!
+  - text: That's so grateful of you!
+  - text: You sound very grateful about that!
+  response_guilty:
+  - text: You must feel guilty about that huh!
+  - text: So you feel guilty now.
+  response_hopeful:
+  - text: I hope you will have what you wish!
+  - text: Good luck on that!
+  - text: I wish you a good luck!
+  - text: Hopefully you will have what you want!
+  response_jealous:
+  - text: You must feel jealous about that huh!
+  response_joyful:
+  - text: That is heart-warmted to hear!
+  - text: I hope you will experience this joy as much as possible!
+  response_lonely:
+  - text: I hope this loneliness will go away, or you can somehow embrace it!
+  - text: You must feel lonely huh!
+  response_nostalgic:
+  - text: Ah, the good memory!
+  - text: Those are memories to remember huh!
+  - text: It's happy and sad at the same time when you are nostalgic!
+  response_proud:
+  - text: You must feel so proud!
+  response_surprised:
+  - text: Wow that's a surprise!
+  - text: That is surprised!
+  - text: What a surprise huh!
+actions:
+- utter_greet
+- utter_goodbye
+- utter_ask_location
+- utter_who_i_am
+- utter_my_capabilities
+- utter_my_feeling
+- utter_confuse
+- utter_you_welcome
+- utter_convince
+- utter_shock
+- utter_impressed
+- utter_angry
+- utter_apology
+- utter_worry
+- utter_cheer_up
+- utter_sorry
+- utter_congrat
+- utter_happy
+- utter_sad
+- utter_send_music
+- utter_send_meme
+- utter_ask_better
+- utter_affirm
+- utter_deny
+- utter_what_happen
+- utter_ask_next
+- utter_how_you_feel
+- utter_good_to_hear
+- utter_wish_better
+- utter_not_capable
+- utter_no_advice
+- utter_lifeline
+- utter_joke
+- utter_really
+- response_depressed
+- response_stressed
+- response_insomnia
+- response_empty
+- response_fear
+- response_afraid
+- response_angry
+- response_annoyed
+- response_anxious
+- response_apprehensive
+- response_ashamed
+- response_content
+- response_devastated
+- response_disappointed
+- response_embarrassed
+- response_excited
+- response_faithful
+- response_furious
+- response_grateful
+- response_guilty
+- response_hopeful
+- response_jealous
+- response_joyful
+- response_lonely
+- response_nostalgic
+- response_proud
+- response_surprised
+forms: {}
+e2e_actions: []
